@@ -1,3 +1,7 @@
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 'use client';
 
 // eslint-disable-next-line
@@ -23,7 +27,7 @@ import styleBuilder from '!!raw-loader!@plitzi/plitzi-builder/dist/plitzi-builde
 export type PlitziBuilderWrapperProps = {
   ref?: RefObject<HTMLDivElement | null>;
   className?: string;
-  internalProps?: Record<string, any>;
+  internalProps?: Record<string, unknown>;
   webKey: string;
   userKey: string;
   apiServer?: string;
@@ -40,11 +44,11 @@ const PlitziBuilderWrapper = ({
   internalProps = {},
   webKey = '',
   userKey = '',
-  apiServer = 'https://api.plitzi.com',
-  nodeServer = 'https://server.plitzi.com',
-  graphqlServer = 'https://server.plitzi.com/graphql',
-  websocketServer = 'wss://server.plitzi.com',
-  subscriptionServer = 'wss://server.plitzi.com/subscriptions',
+  // apiServer = 'https://api.plitzi.com',
+  // nodeServer = 'https://server.plitzi.com',
+  // graphqlServer = 'https://server.plitzi.com/graphql',
+  // websocketServer = 'wss://server.plitzi.com',
+  // subscriptionServer = 'wss://server.plitzi.com/subscriptions',
   builderEnvironment = 'production'
 }: PlitziBuilderWrapperProps) => {
   const {
@@ -53,7 +57,7 @@ const PlitziBuilderWrapper = ({
   } = usePlitziServiceContext();
   const {
     routeParams: { spaceId }
-  } = use(NavigationContext);
+  } = use<{ routeParams: { spaceId: string } }>(NavigationContext);
 
   // const serverMemo = useMemo(
   //   () => ({
@@ -81,7 +85,7 @@ const PlitziBuilderWrapper = ({
       internalProps={internalProps}
       className={classNames('plitzi-component__plitzi-builder', className)}
     >
-      <ContainerShadow className="flex flex-col h-full">
+      <ContainerShadow className="flex h-full flex-col">
         <ContainerShadow.Link
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
           crossOrigin="anonymous"

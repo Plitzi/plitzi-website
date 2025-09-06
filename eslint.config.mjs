@@ -7,13 +7,14 @@ import react from 'eslint-plugin-react';
 import prettier from 'eslint-plugin-prettier';
 // import storybook from 'eslint-plugin-storybook';
 import importEslint from 'eslint-plugin-import';
+import nextPlugin from '@next/eslint-plugin-next';
 
 // const path = require('path');
 
 export default tsEslint.config({
   extends: [js.configs.recommended, ...tsEslint.configs.strictTypeChecked],
   files: ['**/*.{ts,tsx}'],
-  ignores: ['node_modules', 'dist', 'coverage', '.yarn/*'],
+  ignores: ['node_modules', 'dist', 'coverage', '.yarn/*', '.next'],
   languageOptions: {
     ecmaVersion: 2023,
     globals: globals.browser,
@@ -32,15 +33,23 @@ export default tsEslint.config({
     react,
     prettier,
     jsxRuntime: react.configs.flat['jsx-runtime'],
+    '@next/next': nextPlugin
     // storybook
   },
   rules: {
+    // Next.js Rules
+    ...nextPlugin.configs.recommended.rules,
+    ...nextPlugin.configs['core-web-vitals'].rules,
+    // React Hooks rules
     ...reactHooks.configs.recommended.rules,
-    '@typescript-eslint/consistent-type-imports': ['warn', {
-      disallowTypeAnnotations: false,
-      fixStyle: 'separate-type-imports',
-      prefer: 'type-imports'
-    }],
+    '@typescript-eslint/consistent-type-imports': [
+      'warn',
+      {
+        disallowTypeAnnotations: false,
+        fixStyle: 'separate-type-imports',
+        prefer: 'type-imports'
+      }
+    ],
     '@typescript-eslint/no-confusing-void-expression': ['error', { ignoreArrowShorthand: true }],
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     'no-var': 'error',
