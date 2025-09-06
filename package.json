@@ -1,0 +1,58 @@
+{
+  "name": "plitzi-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build --turbopack",
+    "start": "next start -p 3001"
+  },
+  "packageManager": "yarn@4.2.2",
+  "dependencies": {
+    "@plitzi/plitzi-builder": "^0.23.24",
+    "@plitzi/plitzi-sdk": "^0.23.24",
+    "@plitzi/plitzi-ui": "^0.2.0",
+    "@plitzi/plitzi-webpack": "^0.3.4",
+    "classnames": "^2.5.1",
+    "next": "15.5.2",
+    "raw-loader": "^4.0.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "9.35.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "eslint-plugin-storybook": "^9.1.5",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.42.0",
+    "webpack": "^5.101.3"
+  },
+  "resolutions": {
+    "@plitzi/sdk-shared": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-shared",
+    "@plitzi/sdk-navigation": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-navigation",
+    "@plitzi/sdk-plugins": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-plugins",
+    "@plitzi/sdk-style": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-style",
+    "@plitzi/sdk-schema": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-schema",
+    "@plitzi/sdk-auth": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-auth",
+    "@plitzi/sdk-event-bridge": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-event-bridge",
+    "@plitzi/sdk-state": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-state",
+    "@plitzi/sdk-data-source": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-data-source",
+    "@plitzi/sdk-dev-tools": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-dev-tools",
+    "@plitzi/sdk-interactions": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-interactions",
+    "@plitzi/sdk-elements": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-elements",
+    "@plitzi/sdk-variables": "portal:/Users/Carlos/htdocs/plitzi-workspace/packages/sdk-variables",
+    "@plitzi/plitzi-sdk": "portal:/Users/Carlos/htdocs/plitzi-workspace/apps/sdk",
+    "@plitzi/plitzi-builder": "portal:/Users/Carlos/htdocs/plitzi-workspace/apps/builder",
+    "@plitzi/plitzi-ui": "portal:/Users/Carlos/htdocs/plitzi-ui"
+  }
+}
