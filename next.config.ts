@@ -3,7 +3,6 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'standalone', // required for SSR in Amplify
   reactStrictMode: false,
   /* config options here */
   // webpack: (config, options) => {
