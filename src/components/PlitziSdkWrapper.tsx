@@ -12,7 +12,8 @@ import PlitziBuilderWrapper from './PlitziBuilderWrapper';
 export type PlitziSdkWrapperProps = {
   className?: string;
   previewMode?: boolean;
-  environment?: string;
+  environment?: 'production' | 'staging' | 'development' | 'main';
+  sdkEnvironment?: 'production' | 'staging' | 'development';
   webKey: string;
   externalStyle?: string;
   basePath?: string;
@@ -42,6 +43,7 @@ const PlitziSdkWrapper = ({
   className = '',
   previewMode = false,
   environment = 'main',
+  sdkEnvironment = 'development',
   webKey, //  = '',
   externalStyle = '',
   basePath = '',
@@ -49,7 +51,6 @@ const PlitziSdkWrapper = ({
   // offlineData,
   server
 }: PlitziSdkWrapperProps) => {
-  const sdkEnvironment = process.env.NODE_ENV === 'production' ? 'production' : 'development';
   const serverMemo = useMemo(
     () => ({ basePath, ...getEnvironmentServer(sdkEnvironment), ...server }),
     [basePath, server, sdkEnvironment]
