@@ -8,7 +8,7 @@
     "lint": "TIMING=1 eslint ./src",
     "build": "next build"
   },
-  "packageManager": "yarn@4.2.2",
+  "packageManager": "yarn@4.9.4",
   "dependencies": {
     "@plitzi/plitzi-builder": "^0.24.2",
     "@plitzi/plitzi-sdk": "^0.24.2",
