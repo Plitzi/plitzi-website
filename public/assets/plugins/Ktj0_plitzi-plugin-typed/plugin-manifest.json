@@ -1,0 +1,77 @@
+{
+  "author": "Carlos Rodriguez <crodriguez@plitzi.com>",
+  "created": "09/11/2024",
+  "updated": "09/11/2024",
+  "version": "v0.5.6",
+  "root": "typed",
+  "runtime": {
+    "scope": "PlitziPluginTyped",
+    "module": "Plugin"
+  },
+  "definition": {
+    "name": "Plitzi's Typed Plugin",
+    "description": "",
+    "owner": "Plitzi",
+    "verified": true,
+    "license": "MIT",
+    "website": "https://plitzi.com",
+    "backgroundColor": "#4422ee",
+    "icon": "https://cdn.plitzi.com/resources/img/favicon.svg"
+  },
+  "pluginSchema": {
+    "typed": {
+      "attributes": {},
+      "definition": {
+        "label": "Typed",
+        "type": "typed",
+        "bindings": {},
+        "styleSelectors": {
+          "base": ""
+        }
+      },
+      "builder": {
+        "canDelete": true,
+        "canSelect": true,
+        "canDragDrop": true,
+        "canMove": true,
+        "canTemplate": true,
+        "itemsAllowed": [],
+        "itemsNotAllowed": []
+      },
+      "bindingsAllowed": {
+        "attributes": [],
+        "initialState": [
+          {
+            "path": "visibility",
+            "label": "Visibility"
+          },
+          {
+            "path": "styleSelectors.base",
+            "label": "Selector - Base"
+          }
+        ]
+      },
+      "defaultStyle": {
+        "name": "Typed",
+        "displayMode": "desktop",
+        "style": {
+          "base": {}
+        }
+      }
+    }
+  },
+  "assets": {
+    "plitzi-plugin-typed.css": {
+      "src": "plitzi-plugin-typed.css",
+      "integrity": "sha384-mh/AitE+HeTGqIt9F7SejZfEkbEkIO8syfR26RiamrALMjjxYPeqt+bV5Gz4tOFz",
+      "type": "style",
+      "srcPath": "/plitzi-plugin-typed/plitzi-plugin-typed.css"
+    },
+    "plitzi-plugin-typed.js": {
+      "src": "plitzi-plugin-typed.js",
+      "integrity": "sha384-gTHJ7L7opfaDiTqAFdvUgw2/+ukO781bqF6LtKfNB4hdRxsbHB+x4EqNdYCWPpGa",
+      "type": "script",
+      "srcPath": "/plitzi-plugin-typed/plitzi-plugin-typed.js"
+    }
+  }
+}

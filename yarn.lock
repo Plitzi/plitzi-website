@@ -12,7 +12,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:^4.0.4":
+"@apollo/client@npm:^4.0.4, @apollo/client@npm:^4.0.5":
   version: 4.0.5
   resolution: "@apollo/client@npm:4.0.5"
   dependencies:
@@ -55,7 +55,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auth0/auth0-spa-js@npm:^2.2.0":
+"@auth0/auth0-react@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "@auth0/auth0-react@npm:2.5.0"
+  dependencies:
+    "@auth0/auth0-spa-js": "npm:^2.4.1"
+  peerDependencies:
+    react: ^16.11.0 || ^17 || ^18 || ^19
+    react-dom: ^16.11.0 || ^17 || ^18 || ^19
+  checksum: 10c0/b7ae15e06ce5b499c867fa996c7f113cd77d5c1005b09db0962688fc81674e1e988af64e80762331109a7ddf9c63c21bb49019139f91051fd6b9e7418e0e00ce
+  languageName: node
+  linkType: hard
+
+"@auth0/auth0-spa-js@npm:^2.2.0, @auth0/auth0-spa-js@npm:^2.4.1":
   version: 2.4.1
   resolution: "@auth0/auth0-spa-js@npm:2.4.1"
   dependencies:
@@ -110,7 +122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@codemirror/lang-html@npm:^6.4.9":
+"@codemirror/lang-html@npm:^6.4.10, @codemirror/lang-html@npm:^6.4.9":
   version: 6.4.10
   resolution: "@codemirror/lang-html@npm:6.4.10"
   dependencies:
@@ -318,6 +330,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint/js@npm:9.36.0":
+  version: 9.36.0
+  resolution: "@eslint/js@npm:9.36.0"
+  checksum: 10c0/e3f6fb7d6f117d79615574f7bef4f238bcfed6ece0465d28226c3a75d2b6fac9cc189121e8673562796ca8ccea2bf9861715ee5cf4a3dbef87d17811c0dac22c
+  languageName: node
+  linkType: hard
+
 "@eslint/object-schema@npm:^2.1.6":
   version: 2.1.6
   resolution: "@eslint/object-schema@npm:2.1.6"
@@ -352,6 +371,17 @@ __metadata:
   peerDependencies:
     react-hook-form: ^7.55.0
   checksum: 10c0/e8e48abc188b5139bc444e4495e2fb1680c6aafa31d79c5d7fa4d7d690b0fc2bac1dfbd99213cbc0c6c53c5c3c4e8c4dc28278dd87a3fa0176540795a6f2edde
+  languageName: node
+  linkType: hard
+
+"@hookform/resolvers@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "@hookform/resolvers@npm:5.2.2"
+  dependencies:
+    "@standard-schema/utils": "npm:^0.3.0"
+  peerDependencies:
+    react-hook-form: ^7.55.0
+  checksum: 10c0/0692cd61dcc2a70cbb27b88a37f733c39e97f555c036ba04a81bd42b0467461cfb6bafacb46c16f173672f9c8a216bd7928a2330d4e49c700d130622bf1defaf
   languageName: node
   linkType: hard
 
@@ -746,14 +776,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:15.5.2":
-  version: 15.5.2
-  resolution: "@next/env@npm:15.5.2"
-  checksum: 10c0/39bb834c36361c12b8f3f8fc9e6ce72b2af0daa1b56eab18f2b79d114403fe025317d5079ed2907334da6b4c53b2462724ffc2afa54471c335e6987b4a7a0cc3
+"@next/env@npm:15.5.3":
+  version: 15.5.3
+  resolution: "@next/env@npm:15.5.3"
+  checksum: 10c0/00f5541f8d23ddb0758247fae90440b66aa5eb49568bf24e0952d5a417bd47c3610ede61b6658d3f861c13a2c07685a5f1e6d13af2fe5101d2575b3ba2d9e432
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:^15.5.2":
+"@next/eslint-plugin-next@npm:^15.5.3":
   version: 15.5.3
   resolution: "@next/eslint-plugin-next@npm:15.5.3"
   dependencies:
@@ -762,58 +792,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:15.5.2":
-  version: 15.5.2
-  resolution: "@next/swc-darwin-arm64@npm:15.5.2"
+"@next/swc-darwin-arm64@npm:15.5.3":
+  version: 15.5.3
+  resolution: "@next/swc-darwin-arm64@npm:15.5.3"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:15.5.2":
-  version: 15.5.2
-  resolution: "@next/swc-darwin-x64@npm:15.5.2"
+"@next/swc-darwin-x64@npm:15.5.3":
+  version: 15.5.3
+  resolution: "@next/swc-darwin-x64@npm:15.5.3"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:15.5.2":
-  version: 15.5.2
-  resolution: "@next/swc-linux-arm64-gnu@npm:15.5.2"
+"@next/swc-linux-arm64-gnu@npm:15.5.3":
+  version: 15.5.3
+  resolution: "@next/swc-linux-arm64-gnu@npm:15.5.3"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:15.5.2":
-  version: 15.5.2
-  resolution: "@next/swc-linux-arm64-musl@npm:15.5.2"
+"@next/swc-linux-arm64-musl@npm:15.5.3":
+  version: 15.5.3
+  resolution: "@next/swc-linux-arm64-musl@npm:15.5.3"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:15.5.2":
-  version: 15.5.2
-  resolution: "@next/swc-linux-x64-gnu@npm:15.5.2"
+"@next/swc-linux-x64-gnu@npm:15.5.3":
+  version: 15.5.3
+  resolution: "@next/swc-linux-x64-gnu@npm:15.5.3"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:15.5.2":
-  version: 15.5.2
-  resolution: "@next/swc-linux-x64-musl@npm:15.5.2"
+"@next/swc-linux-x64-musl@npm:15.5.3":
+  version: 15.5.3
+  resolution: "@next/swc-linux-x64-musl@npm:15.5.3"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:15.5.2":
-  version: 15.5.2
-  resolution: "@next/swc-win32-arm64-msvc@npm:15.5.2"
+"@next/swc-win32-arm64-msvc@npm:15.5.3":
+  version: 15.5.3
+  resolution: "@next/swc-win32-arm64-msvc@npm:15.5.3"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:15.5.2":
-  version: 15.5.2
-  resolution: "@next/swc-win32-x64-msvc@npm:15.5.2"
+"@next/swc-win32-x64-msvc@npm:15.5.3":
+  version: 15.5.3
+  resolution: "@next/swc-win32-x64-msvc@npm:15.5.3"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -852,23 +882,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/plitzi-builder@npm:^0.24.2":
-  version: 0.24.2
-  resolution: "@plitzi/plitzi-builder@npm:0.24.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-builder%2F0.24.2%2F494d7e42612fd11f8715e90bf0cdd2055dbb27ac"
+"@plitzi/plitzi-builder@npm:^0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/plitzi-builder@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-builder%2F0.24.6%2F2b9639d195b766362a0b03a32f7e5b1b0761a54a"
   dependencies:
-    "@apollo/client": "npm:^4.0.4"
-    "@plitzi/plitzi-sdk": "npm:0.24.2"
-    "@plitzi/plitzi-ui": "npm:^1.0.0"
-    "@plitzi/sdk-auth": "npm:0.24.2"
-    "@plitzi/sdk-event-bridge": "npm:0.24.2"
-    "@plitzi/sdk-interactions": "npm:0.24.2"
-    "@plitzi/sdk-navigation": "npm:0.24.2"
-    "@plitzi/sdk-plugins": "npm:0.24.2"
-    "@plitzi/sdk-schema": "npm:0.24.2"
-    "@plitzi/sdk-shared": "npm:0.24.2"
-    "@plitzi/sdk-state": "npm:0.24.2"
-    "@plitzi/sdk-style": "npm:0.24.2"
-    "@plitzi/sdk-variables": "npm:0.24.2"
+    "@apollo/client": "npm:^4.0.5"
+    "@plitzi/plitzi-sdk": "npm:0.24.6"
+    "@plitzi/plitzi-ui": "npm:^1.0.4"
+    "@plitzi/sdk-auth": "npm:0.24.6"
+    "@plitzi/sdk-event-bridge": "npm:0.24.6"
+    "@plitzi/sdk-interactions": "npm:0.24.6"
+    "@plitzi/sdk-navigation": "npm:0.24.6"
+    "@plitzi/sdk-plugins": "npm:0.24.6"
+    "@plitzi/sdk-schema": "npm:0.24.6"
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    "@plitzi/sdk-state": "npm:0.24.6"
+    "@plitzi/sdk-style": "npm:0.24.6"
+    "@plitzi/sdk-variables": "npm:0.24.6"
     apollo-upload-client: "npm:^19.0.0"
     classnames: "npm:^2.5.1"
     graphql: "npm:^16.11.0"
@@ -880,15 +910,81 @@ __metadata:
     react: "npm:19.1.1"
     react-dom: "npm:19.1.1"
     react-hook-form: "npm:^7.62.0"
-    react-router-dom: "npm:^7.8.2"
+    react-router-dom: "npm:^7.9.1"
     twig: "npm:^1.17.1"
-    uuid: "npm:^12.0.0"
-    zod: "npm:^4.1.5"
-  checksum: 10c0/aa55354f1a515f52335f7ec74b66f3cf9bce0582363c60a7ccee480b71f04287543b43d945aca3762cf8974604772b8fb06dcfb359f6bfc429c7670ac50d58ea
+    uuid: "npm:^13.0.0"
+    zod: "npm:^4.1.9"
+  checksum: 10c0/993da4df46ec0f68d8dedc6da6444ca93dd724e7f16d9a0895124f078d2e854adbfd44f503c307e15395b0cf41e0cb099683545f6c5db3111f4181169049642b
   languageName: node
   linkType: hard
 
-"@plitzi/plitzi-sdk@npm:0.24.2, @plitzi/plitzi-sdk@npm:^0.24.2":
+"@plitzi/plitzi-plugin-lottie@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "@plitzi/plitzi-plugin-lottie@npm:0.6.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fplitzi-plugin-lottie%2F0.6.2%2F61850eb5290c6b69bd7bb8962bc419c681e197c0"
+  dependencies:
+    "@plitzi/plitzi-sdk": "npm:^0.24.2"
+    "@plitzi/plitzi-ui": "npm:^1.0.0"
+    "@plitzi/plitzi-ui-components": "npm:^0.14.14"
+    lottie-web: "npm:^5.13.0"
+  peerDependencies:
+    react: ^19.1.1
+    react-dom: ^19.1.1
+  checksum: 10c0/3bc8ae253f147cfad6a31690d3d64422a6c78e71914046b1ca639b1e118771a6a4075461f1bd91f5cdfcb6466502f38e95661343ebbc6924012be1f26cbde061
+  languageName: node
+  linkType: hard
+
+"@plitzi/plitzi-plugin-typed@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "@plitzi/plitzi-plugin-typed@npm:0.6.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fplitzi-plugin-typed%2F0.6.1%2F415b4d4cd1fe502f8879de794f75af8c2d007a21"
+  dependencies:
+    "@plitzi/plitzi-sdk": "npm:^0.24.2"
+    "@plitzi/plitzi-ui": "npm:^1.0.0"
+    "@plitzi/plitzi-ui-components": "npm:^0.14.14"
+    typed.js: "npm:^2.1.0"
+  peerDependencies:
+    react: ^19.1.1
+    react-dom: ^19.1.1
+  checksum: 10c0/a9376ce3ddd08bdc2559989ea08489c04562b4f4e82629f463b6589cd602a39fbef7c45ab353634296b9857c5f770473c57b3f4184015005074f2253172033b0
+  languageName: node
+  linkType: hard
+
+"@plitzi/plitzi-sdk@npm:0.24.6, @plitzi/plitzi-sdk@npm:^0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/plitzi-sdk@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-sdk%2F0.24.6%2F1dd12c8fe944b6f8f4aad40f7cab46f8c2b5d077"
+  dependencies:
+    "@apollo/client": "npm:^4.0.5"
+    "@auth0/auth0-react": "npm:^2.5.0"
+    "@plitzi/plitzi-ui-components": "npm:0.14.14"
+    "@plitzi/sdk-auth": "npm:0.24.6"
+    "@plitzi/sdk-dev-tools": "npm:0.24.6"
+    "@plitzi/sdk-elements": "npm:0.24.6"
+    "@plitzi/sdk-event-bridge": "npm:0.24.6"
+    "@plitzi/sdk-interactions": "npm:0.24.6"
+    "@plitzi/sdk-navigation": "npm:0.24.6"
+    "@plitzi/sdk-plugins": "npm:0.24.6"
+    "@plitzi/sdk-schema": "npm:0.24.6"
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    "@plitzi/sdk-state": "npm:0.24.6"
+    "@plitzi/sdk-style": "npm:0.24.6"
+    "@plitzi/sdk-variables": "npm:0.24.6"
+    apollo3-cache-persist: "npm:^0.15.0"
+    classnames: "npm:^2.5.1"
+    graphql: "npm:^16.11.0"
+    handlebars: "npm:^4.7.8"
+    immer: "npm:^10.1.3"
+    lodash: "npm:^4.17.21"
+    moment: "npm:^2.30.1"
+    react-helmet-async: "npm:^2.0.5"
+    react-router-dom: "npm:^7.9.1"
+    twig: "npm:^1.17.1"
+  peerDependencies:
+    react: ^19.1.1
+    react-dom: ^19.1.1
+  checksum: 10c0/0916fe6f983483bd0b859475493bc1fc87a2de3ae8b1e52539bc254d2fced9a6398ad2ab78bd23bdbe006d7868d99c626035ddb9872e883b2c16fda687a1c81f
+  languageName: node
+  linkType: hard
+
+"@plitzi/plitzi-sdk@npm:^0.24.2":
   version: 0.24.2
   resolution: "@plitzi/plitzi-sdk@npm:0.24.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-sdk%2F0.24.2%2F4b8e6e546e5b925d8b0637bd2f054c58384f7540"
   dependencies:
@@ -924,7 +1020,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/plitzi-ui-components@npm:0.14.14":
+"@plitzi/plitzi-ui-components@npm:0.14.14, @plitzi/plitzi-ui-components@npm:^0.14.14":
   version: 0.14.14
   resolution: "@plitzi/plitzi-ui-components@npm:0.14.14::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-ui-components%2F0.14.14%2F085d35eeb089f48be27ea994ac08ded68f239d4c"
   dependencies:
@@ -993,6 +1089,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plitzi/plitzi-ui@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@plitzi/plitzi-ui@npm:1.0.4::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fplitzi-ui%2F1.0.4%2F67fca27b6b24943ee442a84550d2dafc44dcb627"
+  dependencies:
+    "@codemirror/autocomplete": "npm:^6.18.7"
+    "@codemirror/commands": "npm:^6.8.1"
+    "@codemirror/lang-css": "npm:^6.3.1"
+    "@codemirror/lang-html": "npm:^6.4.10"
+    "@codemirror/lang-javascript": "npm:^6.2.4"
+    "@codemirror/lang-json": "npm:^6.0.2"
+    "@codemirror/search": "npm:^6.5.11"
+    "@codemirror/state": "npm:^6.5.2"
+    "@codemirror/theme-one-dark": "npm:^6.1.3"
+    "@codemirror/view": "npm:^6.38.2"
+    "@hookform/resolvers": "npm:^5.2.2"
+    class-variance-authority: "npm:^0.7.1"
+    classnames: "npm:^2.5.1"
+    immer: "npm:^10.1.3"
+    lodash: "npm:^4.17.21"
+    moment: "npm:^2.30.1"
+    react: "npm:^19.1.1"
+    react-color: "npm:^2.19.3"
+    react-dom: "npm:^19.1.1"
+    react-hook-form: "npm:^7.62.0"
+    react-markdown: "npm:^10.1.0"
+    react-syntax-highlighter: "npm:^15.6.6"
+    react-toastify: "npm:^11.0.5"
+    rehype-raw: "npm:^7.0.0"
+    remark-gfm: "npm:^4.0.1"
+    tailwind-merge: "npm:^3.3.1"
+    tinycolor2: "npm:^1.6.0"
+    uuid: "npm:^13.0.0"
+    zod: "npm:^4.1.9"
+  checksum: 10c0/70ebf53066ed186a7269b81b7b29c1505c4529ad3ecfd09ce6ffb50f537932eea7d46c2e6dc2c593e3c3b5a5b12bdea7c648bfc8c1c1e04d5e3e55db300620c3
+  languageName: node
+  linkType: hard
+
 "@plitzi/plitzi-webpack@npm:^0.3.5":
   version: 0.3.5
   resolution: "@plitzi/plitzi-webpack@npm:0.3.5::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-webpack%2F0.3.5%2F2e04626cc0044e5f81e98ecee4d60b461b52359c"
@@ -1006,24 +1139,26 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@plitzi/plitzi-website@workspace:."
   dependencies:
-    "@next/eslint-plugin-next": "npm:^15.5.2"
-    "@plitzi/plitzi-builder": "npm:^0.24.2"
-    "@plitzi/plitzi-sdk": "npm:^0.24.2"
-    "@plitzi/plitzi-ui": "npm:^1.0.0"
+    "@next/eslint-plugin-next": "npm:^15.5.3"
+    "@plitzi/plitzi-builder": "npm:^0.24.6"
+    "@plitzi/plitzi-plugin-lottie": "npm:^0.6.2"
+    "@plitzi/plitzi-plugin-typed": "npm:^0.6.1"
+    "@plitzi/plitzi-sdk": "npm:^0.24.6"
+    "@plitzi/plitzi-ui": "npm:^1.0.4"
     "@plitzi/plitzi-webpack": "npm:^0.3.5"
     "@tailwindcss/postcss": "npm:^4.1.13"
-    "@types/node": "npm:^24.3.1"
-    "@types/react": "npm:^19.1.12"
+    "@types/node": "npm:^24.5.2"
+    "@types/react": "npm:^19.1.13"
     "@types/react-dom": "npm:^19.1.9"
     classnames: "npm:^2.5.1"
-    eslint: "npm:9.35.0"
+    eslint: "npm:9.36.0"
     eslint-plugin-import: "npm:^2.32.0"
     eslint-plugin-prettier: "npm:^5.5.4"
     eslint-plugin-react: "npm:^7.37.5"
     eslint-plugin-react-hooks: "npm:^5.2.0"
     eslint-plugin-react-refresh: "npm:^0.4.20"
-    eslint-plugin-storybook: "npm:^9.1.5"
-    next: "npm:15.5.2"
+    eslint-plugin-storybook: "npm:^9.1.7"
+    next: "npm:15.5.3"
     prettier: "npm:^3.6.2"
     prettier-plugin-jsdoc: "npm:^1.3.3"
     prettier-plugin-tailwindcss: "npm:^0.6.14"
@@ -1032,7 +1167,7 @@ __metadata:
     react-dom: "npm:19.1.1"
     tailwindcss: "npm:^4.1.13"
     typescript: "npm:^5.9.2"
-    typescript-eslint: "npm:^8.42.0"
+    typescript-eslint: "npm:^8.44.0"
     webpack: "npm:^5.101.3"
   languageName: unknown
   linkType: soft
@@ -1051,6 +1186,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plitzi/sdk-auth@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-auth@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-auth%2F0.24.6%2F5e0413378839fc31208429214be95b222614a707"
+  dependencies:
+    "@plitzi/plitzi-ui": "npm:^1.0.4"
+    "@plitzi/sdk-navigation": "npm:0.24.6"
+    "@plitzi/sdk-schema": "npm:0.24.6"
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    lodash: "npm:^4.17.21"
+    moment: "npm:^2.30.1"
+  checksum: 10c0/8a5a18e96586a13a5c982311704a9de3c6b6c2d434647f5357becf0a7ea0b7e58a0da6312e462728a7f602764411b16ea68ac2abed86ccff63d098b0086e81ea
+  languageName: node
+  linkType: hard
+
 "@plitzi/sdk-data-source@npm:0.24.2":
   version: 0.24.2
   resolution: "@plitzi/sdk-data-source@npm:0.24.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-data-source%2F0.24.2%2F667a1532549f253857a91cfa91eb1da4f2ae84db"
@@ -1064,6 +1213,22 @@ __metadata:
     lodash: "npm:^4.17.21"
     moment: "npm:^2.30.1"
   checksum: 10c0/a28272129bc19341d68b5b22e452739c9a577e5b13ea216b44b1960a02b75f6476e21901c3f05d8f4ab0ad087746fdb8cb4078298fb8de19a931a0fdfd653db9
+  languageName: node
+  linkType: hard
+
+"@plitzi/sdk-data-source@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-data-source@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-data-source%2F0.24.6%2F8ce49e03c7d08f52041f95b8d508c802dbbb4ccb"
+  dependencies:
+    "@plitzi/sdk-auth": "npm:0.24.6"
+    "@plitzi/sdk-event-bridge": "npm:0.24.6"
+    "@plitzi/sdk-navigation": "npm:0.24.6"
+    "@plitzi/sdk-schema": "npm:0.24.6"
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    "@plitzi/sdk-state": "npm:0.24.6"
+    lodash: "npm:^4.17.21"
+    moment: "npm:^2.30.1"
+  checksum: 10c0/c6203bb882beea8d1914b58ca25e498792c3846cba447e2badb275b6d46216597c3c7d0a3ebb93c09b28c4795dd112a2c3c2c09358c45f17fa6c9652e0266ea8
   languageName: node
   linkType: hard
 
@@ -1085,6 +1250,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plitzi/sdk-dev-tools@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-dev-tools@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-dev-tools%2F0.24.6%2F765e0c97ee2dc8eb445d8cb6f3f86643df094b16"
+  dependencies:
+    "@plitzi/sdk-data-source": "npm:0.24.6"
+    "@plitzi/sdk-navigation": "npm:0.24.6"
+    "@plitzi/sdk-schema": "npm:0.24.6"
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    "@uiw/react-json-view": "npm:^2.0.0-alpha.38"
+    classnames: "npm:^2.5.1"
+    lodash: "npm:^4.17.21"
+    moment: "npm:^2.30.1"
+    react: "npm:19.1.1"
+    react-dom: "npm:19.1.1"
+  checksum: 10c0/e98358c739fa99145fc41550c6d4ecad1b08993e41102197fa4ed5498a0bce9b851ee52b49e471bd63aefdf3590e36a940fb07a28b5afcd23d348280f2ebba0c
+  languageName: node
+  linkType: hard
+
 "@plitzi/sdk-elements@npm:0.24.2":
   version: 0.24.2
   resolution: "@plitzi/sdk-elements@npm:0.24.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-elements%2F0.24.2%2F3839dd5f53aeef6227ab3f88cf4a379570385e6f"
@@ -1101,6 +1284,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plitzi/sdk-elements@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-elements@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-elements%2F0.24.6%2F1262bfdaf2d290b32f7735125b2e1f6b8302fcae"
+  dependencies:
+    "@plitzi/sdk-data-source": "npm:0.24.6"
+    "@plitzi/sdk-dev-tools": "npm:0.24.6"
+    "@plitzi/sdk-event-bridge": "npm:0.24.6"
+    "@plitzi/sdk-interactions": "npm:0.24.6"
+    "@plitzi/sdk-schema": "npm:0.24.6"
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    immer: "npm:^10.1.3"
+    lodash: "npm:^4.17.21"
+  checksum: 10c0/8d1ac19e60eb21a2c87b2255f6e9b55245d2c06130930a11f42db6436842f47187a94d2b5d8dbae0e9dce2313d0afc6f35efa23a6b2713e4b91b4f3f64ddbfea
+  languageName: node
+  linkType: hard
+
 "@plitzi/sdk-event-bridge@npm:0.24.2":
   version: 0.24.2
   resolution: "@plitzi/sdk-event-bridge@npm:0.24.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-event-bridge%2F0.24.2%2F47c5fc0b27b7b7462337eb6fcfb1623d27144f51"
@@ -1109,6 +1308,17 @@ __metadata:
     lodash: "npm:^4.17.21"
     prop-types: "npm:^15.8.1"
   checksum: 10c0/29e900cd95a35da7e2c0c3944b9fcfb5ffc8852496e3b5d24f1f74eaaf0f07aec5c2a5a4813cf0a9f2f1b8500f0505b6d594717ed974385c7e8d54fc9492d909
+  languageName: node
+  linkType: hard
+
+"@plitzi/sdk-event-bridge@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-event-bridge@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-event-bridge%2F0.24.6%2F9952f8b79784aa69df74541e671254f05f6592eb"
+  dependencies:
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    lodash: "npm:^4.17.21"
+    prop-types: "npm:^15.8.1"
+  checksum: 10c0/19162a16752584e357c60645ac5a1b7ad56e3b05867be9fa48c93729b76defddeaffc43201ec18cf699e85199b7f0c3001c8dc2f8b9dced769367f44f0ee0cf3
   languageName: node
   linkType: hard
 
@@ -1126,6 +1336,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plitzi/sdk-interactions@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-interactions@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-interactions%2F0.24.6%2Fee929cabb43344e00364786a1c6fd001140ade7b"
+  dependencies:
+    "@plitzi/plitzi-ui": "npm:^1.0.4"
+    "@plitzi/sdk-auth": "npm:0.24.6"
+    "@plitzi/sdk-dev-tools": "npm:0.24.6"
+    "@plitzi/sdk-event-bridge": "npm:0.24.6"
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    lodash: "npm:^4.17.21"
+  checksum: 10c0/4ec81a612d38bd1d0c05a5c0ede316d8720cab105840be43cd3310192618109bae9fccb295effe0751c54a9d7100d7996840e3e09ff071a1fb29634f4dd8776e
+  languageName: node
+  linkType: hard
+
 "@plitzi/sdk-navigation@npm:0.24.2":
   version: 0.24.2
   resolution: "@plitzi/sdk-navigation@npm:0.24.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-navigation%2F0.24.2%2Fd79025ae808d2e30219f84c2984216ca6fc26372"
@@ -1140,6 +1364,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plitzi/sdk-navigation@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-navigation@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-navigation%2F0.24.6%2F22513cc08fd81736c7784712a362b1df0be759bb"
+  dependencies:
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    lodash: "npm:^4.17.21"
+    react: "npm:19.1.1"
+    react-dom: "npm:19.1.1"
+    react-router: "npm:^7.9.1"
+    react-router-dom: "npm:^7.9.1"
+  checksum: 10c0/ba4c2fed5e6542c2fae49b84ad9901395b43c2875a30bac259513c2f33dc1803712984edc7127291d17845ee9c6efff7af6b5a23646fd8c99453fc40ab58143d
+  languageName: node
+  linkType: hard
+
 "@plitzi/sdk-plugins@npm:0.24.2":
   version: 0.24.2
   resolution: "@plitzi/sdk-plugins@npm:0.24.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-plugins%2F0.24.2%2F170ee6f856a4ecff0dffa44b2b69cd7879a1fede"
@@ -1148,6 +1386,17 @@ __metadata:
     lodash: "npm:^4.17.21"
     prop-types: "npm:^15.8.1"
   checksum: 10c0/c1f51983ccc7a6f3314cccc7c17021e490cbc103ca28e2aac9cd214bd7bce2a8156310c8ccd8dcf4a7ee077e074dac094bcaa5b6279caae80cafaab6c98f4ae3
+  languageName: node
+  linkType: hard
+
+"@plitzi/sdk-plugins@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-plugins@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-plugins%2F0.24.6%2Fee73d2d2b229d60c8144f1a759a07d980e183c3f"
+  dependencies:
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    lodash: "npm:^4.17.21"
+    prop-types: "npm:^15.8.1"
+  checksum: 10c0/c1c4a0112bddfdce132e880992f64fde7a83a5fab8b7b7dc5cf3cb4fa3acf5f58466bf331f394c491ef3776b055b7b6e9e428d4dbd3f46e5c308b69e9249aff0
   languageName: node
   linkType: hard
 
@@ -1160,6 +1409,18 @@ __metadata:
     lodash: "npm:^4.17.21"
     prop-types: "npm:^15.8.1"
   checksum: 10c0/be29d590163256b8c066c746a5a15632eab2cbedee86ad42682b091eab9c9a6a9a2a4e7ea80b9bb01a2ba3ead2709102c262c04a48c9ad661fd97721a6627e23
+  languageName: node
+  linkType: hard
+
+"@plitzi/sdk-schema@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-schema@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-schema%2F0.24.6%2F141ffa8ec1825fd05a6bf1d08eb7d4665207cca1"
+  dependencies:
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    "@plitzi/sdk-style": "npm:0.24.6"
+    lodash: "npm:^4.17.21"
+    prop-types: "npm:^15.8.1"
+  checksum: 10c0/73c6a6ea95298a257fbd41cb79323e20abdde3db3ab21d2707cdc48406e25da955c9f1e96f5570b1d855d9396a1cb42e78b1ab7ca7585d46b4be759ed3c8dbf0
   languageName: node
   linkType: hard
 
@@ -1176,6 +1437,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plitzi/sdk-shared@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-shared@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-shared%2F0.24.6%2F969e99352738b497866f08099ed9d9a99e1cb5ef"
+  dependencies:
+    "@plitzi/plitzi-ui": "npm:^1.0.4"
+    lodash: "npm:^4.17.21"
+    react: "npm:19.1.1"
+    react-dom: "npm:19.1.1"
+    twig: "npm:^1.17.1"
+  checksum: 10c0/25c971b3cd1a016d46cd0bed7e93a4d093f97a344c2deb909083f141f889bf9c02e25e54ce6e6d8a9e5e00be05bee02f127b3f8a125924d94f1f0608a812290d
+  languageName: node
+  linkType: hard
+
 "@plitzi/sdk-state@npm:0.24.2":
   version: 0.24.2
   resolution: "@plitzi/sdk-state@npm:0.24.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-state%2F0.24.2%2Fb42af3f6debad761598415c24db91b1432223430"
@@ -1185,6 +1459,18 @@ __metadata:
     immer: "npm:^10.1.3"
     lodash: "npm:^4.17.21"
   checksum: 10c0/92317930b47400d117f1845c2fd52bb705127120b7b21300988de2e29b5abbab9e799138942d70502d580d24ff566aeaa8eae852ae57529a55e7480f124018a1
+  languageName: node
+  linkType: hard
+
+"@plitzi/sdk-state@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-state@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-state%2F0.24.6%2Fe4df2e9e517baae2bf96ba15119144a0e8fbac85"
+  dependencies:
+    "@plitzi/sdk-schema": "npm:0.24.6"
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    immer: "npm:^10.1.3"
+    lodash: "npm:^4.17.21"
+  checksum: 10c0/fd39d1097af88b182acf07c18c04d37455ed5971cd7829795bfb03467456beeb68777b31e1eb89d8f590cd964c9244e53bb826340f3df8e30f502396c7027080
   languageName: node
   linkType: hard
 
@@ -1204,6 +1490,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plitzi/sdk-style@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-style@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-style%2F0.24.6%2F2631f4b2810a590517a9af3f845641a8a800c650"
+  dependencies:
+    "@plitzi/plitzi-ui": "npm:^1.0.4"
+    "@plitzi/sdk-plugins": "npm:0.24.6"
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    classnames: "npm:^2.5.1"
+    immer: "npm:^10.1.3"
+    lodash: "npm:^4.17.21"
+    prop-types: "npm:^15.8.1"
+    zod: "npm:^4.1.9"
+  checksum: 10c0/5677cf9ce9cd34f4104998f88a1113852ee4610675dfc08713e7f53dab14deaa44b23cd8b691fad89147090ea4c78099eebe3d02658925bcd9db199fee250712
+  languageName: node
+  linkType: hard
+
 "@plitzi/sdk-variables@npm:0.24.2":
   version: 0.24.2
   resolution: "@plitzi/sdk-variables@npm:0.24.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-variables%2F0.24.2%2Fbcc580473db93dfa127c2067d09c395a4c506da7"
@@ -1212,6 +1514,17 @@ __metadata:
     eslint: "npm:^9.35.0"
     lodash: "npm:^4.17.21"
   checksum: 10c0/cbce7ffa66c735757ef653613fbaad89a0926b397f2143e490f5bcae043d54f83bcced827e06ee629d5879a39d2d640a5f95420cbbdcae424c834eed57ec75de
+  languageName: node
+  linkType: hard
+
+"@plitzi/sdk-variables@npm:0.24.6":
+  version: 0.24.6
+  resolution: "@plitzi/sdk-variables@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-variables%2F0.24.6%2F6da9900f0c2c483d6b32abbd11de99f4890af871"
+  dependencies:
+    "@plitzi/sdk-shared": "npm:0.24.6"
+    eslint: "npm:^9.35.0"
+    lodash: "npm:^4.17.21"
+  checksum: 10c0/4b1767f52d62e7f6d6f78cdad68dabb3538bf0099e68529fce9b5a1bd121a5e53378015c0919ec18872368d40581015c0d416db47e2aa38b56fb9f662d020602
   languageName: node
   linkType: hard
 
@@ -1506,12 +1819,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^24.3.1":
+"@types/node@npm:*":
   version: 24.3.3
   resolution: "@types/node@npm:24.3.3"
   dependencies:
     undici-types: "npm:~7.10.0"
   checksum: 10c0/5324108314b3d9abaafd82ea04a91ea6904580c1fbe47c52600881ae250fef3b2d3d28c7d68cb979b07241d29fe889b66bd9f92346902bea65a3e562937c7d9a
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^24.5.2":
+  version: 24.5.2
+  resolution: "@types/node@npm:24.5.2"
+  dependencies:
+    undici-types: "npm:~7.12.0"
+  checksum: 10c0/96baaca6564d39c6f7f6eddd73ce41e2a7594ef37225cd52df3be36fad31712af8ae178387a72d0b80f2e2799e7fd30c014bc0ae9eb9f962d9079b691be00c48
   languageName: node
   linkType: hard
 
@@ -1524,7 +1846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.1.12":
+"@types/react@npm:^19.1.13":
   version: 19.1.13
   resolution: "@types/react@npm:19.1.13"
   dependencies:
@@ -1547,40 +1869,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:8.43.0":
-  version: 8.43.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:8.43.0"
+"@typescript-eslint/eslint-plugin@npm:8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:8.44.0"
   dependencies:
     "@eslint-community/regexpp": "npm:^4.10.0"
-    "@typescript-eslint/scope-manager": "npm:8.43.0"
-    "@typescript-eslint/type-utils": "npm:8.43.0"
-    "@typescript-eslint/utils": "npm:8.43.0"
-    "@typescript-eslint/visitor-keys": "npm:8.43.0"
+    "@typescript-eslint/scope-manager": "npm:8.44.0"
+    "@typescript-eslint/type-utils": "npm:8.44.0"
+    "@typescript-eslint/utils": "npm:8.44.0"
+    "@typescript-eslint/visitor-keys": "npm:8.44.0"
     graphemer: "npm:^1.4.0"
     ignore: "npm:^7.0.0"
     natural-compare: "npm:^1.4.0"
     ts-api-utils: "npm:^2.1.0"
   peerDependencies:
-    "@typescript-eslint/parser": ^8.43.0
+    "@typescript-eslint/parser": ^8.44.0
     eslint: ^8.57.0 || ^9.0.0
     typescript: ">=4.8.4 <6.0.0"
-  checksum: 10c0/9823f6e917d16f95a87fb1fd6c224f361a9f17386453ac97d7d457774cf2ea7bdbcfad37ad063b71ec01a4292127a8bfe69d1987b948e85def2410de8fe353dd
+  checksum: 10c0/971796ac651272631ab774e9140686bd712b0d00cf6c5f4e93f9fac40e52321201f7d9d7c9f6169591768142338dc28db974ec1bb233953f835be4e927492aab
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.43.0":
-  version: 8.43.0
-  resolution: "@typescript-eslint/parser@npm:8.43.0"
+"@typescript-eslint/parser@npm:8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/parser@npm:8.44.0"
   dependencies:
-    "@typescript-eslint/scope-manager": "npm:8.43.0"
-    "@typescript-eslint/types": "npm:8.43.0"
-    "@typescript-eslint/typescript-estree": "npm:8.43.0"
-    "@typescript-eslint/visitor-keys": "npm:8.43.0"
+    "@typescript-eslint/scope-manager": "npm:8.44.0"
+    "@typescript-eslint/types": "npm:8.44.0"
+    "@typescript-eslint/typescript-estree": "npm:8.44.0"
+    "@typescript-eslint/visitor-keys": "npm:8.44.0"
     debug: "npm:^4.3.4"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
     typescript: ">=4.8.4 <6.0.0"
-  checksum: 10c0/b8296d3fac08f6e03c931843264a4219469a6a7d5c4d269fb14fe4c1547477a0dd1c259e6929c749efa043fb4e272436adfc94afdf07039d3b1d9e6956a6a0ea
+  checksum: 10c0/21b91fba122a4f5df0065de57c5320f8eb4c4f8e0da245f7ee0e68f08f7c5a692a28ac2cb5100d8ad8c8ee7e3804b23f996cd80e0e1da0a0fe0c37ddd2fd04b8
   languageName: node
   linkType: hard
 
@@ -1597,6 +1919,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/project-service@npm:8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/project-service@npm:8.44.0"
+  dependencies:
+    "@typescript-eslint/tsconfig-utils": "npm:^8.44.0"
+    "@typescript-eslint/types": "npm:^8.44.0"
+    debug: "npm:^4.3.4"
+  peerDependencies:
+    typescript: ">=4.8.4 <6.0.0"
+  checksum: 10c0/b06e94ae2a2c167271b61200136283432b6a80ab8bcc175bdcb8f685f4daeb4e28b1d83a064f0a660f184811d67e16d4291ab5fac563e48f20213409be8e95e3
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/scope-manager@npm:8.43.0":
   version: 8.43.0
   resolution: "@typescript-eslint/scope-manager@npm:8.43.0"
@@ -1604,6 +1939,16 @@ __metadata:
     "@typescript-eslint/types": "npm:8.43.0"
     "@typescript-eslint/visitor-keys": "npm:8.43.0"
   checksum: 10c0/f87b3c3a5d3ad18326945288fa5b9b9fa662d87f466dc159e1514e00e359e830b80557f213acb3d23d5d600826b4cc4cfa5d2d479f8aba1b9834df19a640a779
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/scope-manager@npm:8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/scope-manager@npm:8.44.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:8.44.0"
+    "@typescript-eslint/visitor-keys": "npm:8.44.0"
+  checksum: 10c0/c221e0b9fe9021b1b41432d96818131c107cfc33fb1f8da6093e236c992ed6160dae6355dd5571fb71b9194a24b24734c032ded4c00500599adda2cc07ef8803
   languageName: node
   linkType: hard
 
@@ -1616,19 +1961,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:8.43.0":
-  version: 8.43.0
-  resolution: "@typescript-eslint/type-utils@npm:8.43.0"
+"@typescript-eslint/tsconfig-utils@npm:8.44.0, @typescript-eslint/tsconfig-utils@npm:^8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/tsconfig-utils@npm:8.44.0"
+  peerDependencies:
+    typescript: ">=4.8.4 <6.0.0"
+  checksum: 10c0/453157f0da2d280b4536db6c80dfee4e5c98a1174109cc8d42b20eeb3fda2d54cb6f03f57a142280710091ed0a8e28f231658c253284b1c62960c2974047f3de
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/type-utils@npm:8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/type-utils@npm:8.44.0"
   dependencies:
-    "@typescript-eslint/types": "npm:8.43.0"
-    "@typescript-eslint/typescript-estree": "npm:8.43.0"
-    "@typescript-eslint/utils": "npm:8.43.0"
+    "@typescript-eslint/types": "npm:8.44.0"
+    "@typescript-eslint/typescript-estree": "npm:8.44.0"
+    "@typescript-eslint/utils": "npm:8.44.0"
     debug: "npm:^4.3.4"
     ts-api-utils: "npm:^2.1.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
     typescript: ">=4.8.4 <6.0.0"
-  checksum: 10c0/70e61233fd586c4545b0ee11871001ba603816fccb69b9fe883a653b32aa049e957a97f208f522b58480a4f4e1c6322b9a3ef60a389925eaefba94abcd44ff7e
+  checksum: 10c0/0699dc0d9b7105112825df886e99b2ee0abc00c79047d952c5ecb6d7c098a56f2c45ad6c9d65c6ab600823a0817d89070550bf7c95f4cf05c87defe74e8f32b6
   languageName: node
   linkType: hard
 
@@ -1636,6 +1990,13 @@ __metadata:
   version: 8.43.0
   resolution: "@typescript-eslint/types@npm:8.43.0"
   checksum: 10c0/60d19b695affce128fe1076ebe4cff7e05d38dd50155d653fc9e995eafa56c299fd49ad4d9d2997f118a75fb57e3ca18001623bc3ef3fa0111f863079203e4b2
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/types@npm:8.44.0, @typescript-eslint/types@npm:^8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/types@npm:8.44.0"
+  checksum: 10c0/d3a4c173294533215b4676a89e454e728cda352d6c923489af4306bf5166e51625bff6980708cb1c191bdb89c864d82bccdf96a9ed5a76f6554d6af8c90e2e1d
   languageName: node
   linkType: hard
 
@@ -1659,7 +2020,42 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:8.43.0, @typescript-eslint/utils@npm:^8.8.1":
+"@typescript-eslint/typescript-estree@npm:8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/typescript-estree@npm:8.44.0"
+  dependencies:
+    "@typescript-eslint/project-service": "npm:8.44.0"
+    "@typescript-eslint/tsconfig-utils": "npm:8.44.0"
+    "@typescript-eslint/types": "npm:8.44.0"
+    "@typescript-eslint/visitor-keys": "npm:8.44.0"
+    debug: "npm:^4.3.4"
+    fast-glob: "npm:^3.3.2"
+    is-glob: "npm:^4.0.3"
+    minimatch: "npm:^9.0.4"
+    semver: "npm:^7.6.0"
+    ts-api-utils: "npm:^2.1.0"
+  peerDependencies:
+    typescript: ">=4.8.4 <6.0.0"
+  checksum: 10c0/303dd3048ee0b980b63022626bdff212c0719ce5c5945fb233464f201aadeb3fd703118c8e255a26e1ae81f772bf76b60163119b09d2168f198d5ce1724c2a70
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/utils@npm:8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/utils@npm:8.44.0"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.7.0"
+    "@typescript-eslint/scope-manager": "npm:8.44.0"
+    "@typescript-eslint/types": "npm:8.44.0"
+    "@typescript-eslint/typescript-estree": "npm:8.44.0"
+  peerDependencies:
+    eslint: ^8.57.0 || ^9.0.0
+    typescript: ">=4.8.4 <6.0.0"
+  checksum: 10c0/85e5106a049c07e8130aaa104fa61057c4ce090600e1bf72dda48ebd5d4f5f515e95a6c35b85a581a295b34f1d1c2395b4bf72bef74870bed3d6894c727f1345
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/utils@npm:^8.8.1":
   version: 8.43.0
   resolution: "@typescript-eslint/utils@npm:8.43.0"
   dependencies:
@@ -1684,6 +2080,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/visitor-keys@npm:8.44.0":
+  version: 8.44.0
+  resolution: "@typescript-eslint/visitor-keys@npm:8.44.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:8.44.0"
+    eslint-visitor-keys: "npm:^4.2.1"
+  checksum: 10c0/c1cb5c000ab56ddb96ddb0991a10ef3a48c76b3f3b3ab7a5a94d24e71371bf96aa22cfe4332625e49ad7b961947a21599ff7c6128253cc9495e8cbd2cad25d72
+  languageName: node
+  linkType: hard
+
 "@uiw/react-json-view@npm:^2.0.0-alpha.37":
   version: 2.0.0-alpha.37
   resolution: "@uiw/react-json-view@npm:2.0.0-alpha.37"
@@ -1692,6 +2098,17 @@ __metadata:
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
   checksum: 10c0/b02cf14702b07298d50bcf37d63af1d0468be424a038cedeef5eb69260cdcc3d609f3b9ac85f6a26a74e45888b0500e6c619ee2eeb0857e9bfcc8ec8c2c428f0
+  languageName: node
+  linkType: hard
+
+"@uiw/react-json-view@npm:^2.0.0-alpha.38":
+  version: 2.0.0-alpha.38
+  resolution: "@uiw/react-json-view@npm:2.0.0-alpha.38"
+  peerDependencies:
+    "@babel/runtime": ">=7.10.0"
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+  checksum: 10c0/8a12edae739898c596324bdca537891bdb4204a6843560e11661600ee37a744d0af5f1bb2882f9495ba7e7933633d454c52388801a9bcdd1af0619ae0832a32f
   languageName: node
   linkType: hard
 
@@ -2978,15 +3395,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:^9.1.5":
-  version: 9.1.5
-  resolution: "eslint-plugin-storybook@npm:9.1.5"
+"eslint-plugin-storybook@npm:^9.1.7":
+  version: 9.1.7
+  resolution: "eslint-plugin-storybook@npm:9.1.7"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.8.1"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^9.1.5
-  checksum: 10c0/aa8f0a3a7b4d8e90c958889603351ca62837af13f8ac596c643a47f7197d586f93a8d9525d1e11b449d7579dc1de5315fdb8f97c0d6a18eac81fdb4e815961df
+    storybook: ^9.1.7
+  checksum: 10c0/f47cd4b4c5ee297c83c3112288461b736b438956fe0ab74dcdf3d0b4ac19495ec25185354110cc041ed01f25a2871df0e5ca0eeb94d5fc330df5720149f4d251
   languageName: node
   linkType: hard
 
@@ -3024,7 +3441,57 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:9.35.0, eslint@npm:^9.35.0":
+"eslint@npm:9.36.0":
+  version: 9.36.0
+  resolution: "eslint@npm:9.36.0"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.8.0"
+    "@eslint-community/regexpp": "npm:^4.12.1"
+    "@eslint/config-array": "npm:^0.21.0"
+    "@eslint/config-helpers": "npm:^0.3.1"
+    "@eslint/core": "npm:^0.15.2"
+    "@eslint/eslintrc": "npm:^3.3.1"
+    "@eslint/js": "npm:9.36.0"
+    "@eslint/plugin-kit": "npm:^0.3.5"
+    "@humanfs/node": "npm:^0.16.6"
+    "@humanwhocodes/module-importer": "npm:^1.0.1"
+    "@humanwhocodes/retry": "npm:^0.4.2"
+    "@types/estree": "npm:^1.0.6"
+    "@types/json-schema": "npm:^7.0.15"
+    ajv: "npm:^6.12.4"
+    chalk: "npm:^4.0.0"
+    cross-spawn: "npm:^7.0.6"
+    debug: "npm:^4.3.2"
+    escape-string-regexp: "npm:^4.0.0"
+    eslint-scope: "npm:^8.4.0"
+    eslint-visitor-keys: "npm:^4.2.1"
+    espree: "npm:^10.4.0"
+    esquery: "npm:^1.5.0"
+    esutils: "npm:^2.0.2"
+    fast-deep-equal: "npm:^3.1.3"
+    file-entry-cache: "npm:^8.0.0"
+    find-up: "npm:^5.0.0"
+    glob-parent: "npm:^6.0.2"
+    ignore: "npm:^5.2.0"
+    imurmurhash: "npm:^0.1.4"
+    is-glob: "npm:^4.0.0"
+    json-stable-stringify-without-jsonify: "npm:^1.0.1"
+    lodash.merge: "npm:^4.6.2"
+    minimatch: "npm:^3.1.2"
+    natural-compare: "npm:^1.4.0"
+    optionator: "npm:^0.9.3"
+  peerDependencies:
+    jiti: "*"
+  peerDependenciesMeta:
+    jiti:
+      optional: true
+  bin:
+    eslint: bin/eslint.js
+  checksum: 10c0/0e2705a94847813b03f2f3c1367c0708319cbb66458250a09b2d056a088c56e079a1c1d76c44feebf51971d9ce64d010373b2a4f007cd1026fc24f95c89836df
+  languageName: node
+  linkType: hard
+
+"eslint@npm:^9.35.0":
   version: 9.35.0
   resolution: "eslint@npm:9.35.0"
   dependencies:
@@ -4450,6 +4917,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lottie-web@npm:^5.13.0":
+  version: 5.13.0
+  resolution: "lottie-web@npm:5.13.0"
+  checksum: 10c0/b463ad462169df3f7e04b7f3716274e269842554f1d72b8303ca7245628f2512982a59ae31698b3d57fbcda886228ae160fcb2aa518c6cecd8a95974db2458ee
+  languageName: node
+  linkType: hard
+
 "lowlight@npm:^1.17.0":
   version: 1.20.0
   resolution: "lowlight@npm:1.20.0"
@@ -5165,19 +5639,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:15.5.2":
-  version: 15.5.2
-  resolution: "next@npm:15.5.2"
+"next@npm:15.5.3":
+  version: 15.5.3
+  resolution: "next@npm:15.5.3"
   dependencies:
-    "@next/env": "npm:15.5.2"
-    "@next/swc-darwin-arm64": "npm:15.5.2"
-    "@next/swc-darwin-x64": "npm:15.5.2"
-    "@next/swc-linux-arm64-gnu": "npm:15.5.2"
-    "@next/swc-linux-arm64-musl": "npm:15.5.2"
-    "@next/swc-linux-x64-gnu": "npm:15.5.2"
-    "@next/swc-linux-x64-musl": "npm:15.5.2"
-    "@next/swc-win32-arm64-msvc": "npm:15.5.2"
-    "@next/swc-win32-x64-msvc": "npm:15.5.2"
+    "@next/env": "npm:15.5.3"
+    "@next/swc-darwin-arm64": "npm:15.5.3"
+    "@next/swc-darwin-x64": "npm:15.5.3"
+    "@next/swc-linux-arm64-gnu": "npm:15.5.3"
+    "@next/swc-linux-arm64-musl": "npm:15.5.3"
+    "@next/swc-linux-x64-gnu": "npm:15.5.3"
+    "@next/swc-linux-x64-musl": "npm:15.5.3"
+    "@next/swc-win32-arm64-msvc": "npm:15.5.3"
+    "@next/swc-win32-x64-msvc": "npm:15.5.3"
     "@swc/helpers": "npm:0.5.15"
     caniuse-lite: "npm:^1.0.30001579"
     postcss: "npm:8.4.31"
@@ -5220,7 +5694,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 10c0/3bed56bcca1f0fe07908fa075229f7f2662b4870974570f9e5a944758db9960868704ea4253f05c79507381b2e0014e8b621d7934408e26a0df8cbb3621986d8
+  checksum: 10c0/d928a2c3a850abcdd905183f9ce119212892126a294b61239d76ac249defd1210ae1864add43edc5b4e369879168c519938b445d8267456180af2a2c2f7b2eee
   languageName: node
   linkType: hard
 
@@ -5797,7 +6271,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^7.0.2, react-router-dom@npm:^7.8.2":
+"react-router-dom@npm:^7.0.2, react-router-dom@npm:^7.8.2, react-router-dom@npm:^7.9.1":
   version: 7.9.1
   resolution: "react-router-dom@npm:7.9.1"
   dependencies:
@@ -5809,7 +6283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:7.9.1, react-router@npm:^7.8.2":
+"react-router@npm:7.9.1, react-router@npm:^7.8.2, react-router@npm:^7.9.1":
   version: 7.9.1
   resolution: "react-router@npm:7.9.1"
   dependencies:
@@ -6838,18 +7312,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.42.0":
-  version: 8.43.0
-  resolution: "typescript-eslint@npm:8.43.0"
+"typed.js@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "typed.js@npm:2.1.0"
+  checksum: 10c0/a85339064b0d96d01622ea4729436a36172aa0b634cf8e07c1735a5dd50bb35e92b97db412c307fa3364dc2c106efbf9ab7a0bd47a5268f5f7034b4a5effdab2
+  languageName: node
+  linkType: hard
+
+"typescript-eslint@npm:^8.44.0":
+  version: 8.44.0
+  resolution: "typescript-eslint@npm:8.44.0"
   dependencies:
-    "@typescript-eslint/eslint-plugin": "npm:8.43.0"
-    "@typescript-eslint/parser": "npm:8.43.0"
-    "@typescript-eslint/typescript-estree": "npm:8.43.0"
-    "@typescript-eslint/utils": "npm:8.43.0"
+    "@typescript-eslint/eslint-plugin": "npm:8.44.0"
+    "@typescript-eslint/parser": "npm:8.44.0"
+    "@typescript-eslint/typescript-estree": "npm:8.44.0"
+    "@typescript-eslint/utils": "npm:8.44.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
     typescript: ">=4.8.4 <6.0.0"
-  checksum: 10c0/ee8429b16a5b7678136b8b2688bec03d11b5f1590895523ba9b8c6920c7a0876c9bf3bf0ff415df79e57c10ed48955cf183b727394b1c228ca75b5168fb466a1
+  checksum: 10c0/a1b4dc4d86871dd6fbe128ace4430b7ac5921e0c51a091d5285dae69199d80e4d20c19447132a3ad2cd89686d5795adcba4ca58a12c084a82cf1668ca266a910
   languageName: node
   linkType: hard
 
@@ -6898,6 +7379,13 @@ __metadata:
   version: 7.10.0
   resolution: "undici-types@npm:7.10.0"
   checksum: 10c0/8b00ce50e235fe3cc601307f148b5e8fb427092ee3b23e8118ec0a5d7f68eca8cee468c8fc9f15cbb2cf2a3797945ebceb1cbd9732306a1d00e0a9b6afa0f635
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~7.12.0":
+  version: 7.12.0
+  resolution: "undici-types@npm:7.12.0"
+  checksum: 10c0/326e455bbc0026db1d6b81c76a1cf10c63f7e2f9821db2e24fdc258f482814e5bfa8481f8910d07c68e305937c5c049610fdc441c5e8b7bb0daca7154fb8a306
   languageName: node
   linkType: hard
 
@@ -7000,6 +7488,15 @@ __metadata:
   bin:
     uuid: dist/bin/uuid
   checksum: 10c0/242db6735d15a187a0d7f22576db02668f974ffc65d0806b23fe4237cbb0db3153442cb3082c7550784acb6272e5c6c931532916f9604bd814dfab1edf2dac40
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "uuid@npm:13.0.0"
+  bin:
+    uuid: dist-node/bin/uuid
+  checksum: 10c0/950e4c18d57fef6c69675344f5700a08af21e26b9eff2bf2180427564297368c538ea11ac9fb2e6528b17fc3966a9fd2c5049361b0b63c7d654f3c550c9b3d67
   languageName: node
   linkType: hard
 
@@ -7222,6 +7719,13 @@ __metadata:
   version: 4.1.8
   resolution: "zod@npm:4.1.8"
   checksum: 10c0/5eae39da09d7bd0564a30dfd2348811e4e2e7dd15955d8f3444f8e196f35e5422b1482eda234b722fafb0738f4a8b718adb042b860936bfdd2cc19cdbdac8a9a
+  languageName: node
+  linkType: hard
+
+"zod@npm:^4.1.9":
+  version: 4.1.9
+  resolution: "zod@npm:4.1.9"
+  checksum: 10c0/8aa2f240a3ccd153feb061f8ef17b9a4c2bcc98f1146c16655f8623c628c7376006fb70c5e1adcb655fc3585b848435eec307c5bf690cfedbdb220c567e62075
   languageName: node
   linkType: hard
 

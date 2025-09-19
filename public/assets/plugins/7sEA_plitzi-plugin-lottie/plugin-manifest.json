@@ -1,0 +1,80 @@
+{
+  "author": "Carlos Rodriguez <crodriguez@plitzi.com>",
+  "created": "21/10/2024",
+  "updated": "21/10/2024",
+  "version": "v0.5.4",
+  "root": "lottie",
+  "runtime": {
+    "scope": "PlitziPluginLottie",
+    "module": "Plugin"
+  },
+  "definition": {
+    "name": "Plitzi's Lottie Plugin",
+    "description": "",
+    "owner": "Plitzi",
+    "verified": true,
+    "license": "MIT",
+    "website": "https://plitzi.com",
+    "backgroundColor": "#4422ee",
+    "icon": "https://cdn.plitzi.com/resources/img/favicon.svg"
+  },
+  "pluginSchema": {
+    "lottie": {
+      "attributes": {},
+      "definition": {
+        "label": "Lottie",
+        "type": "lottie",
+        "bindings": {},
+        "styleSelectors": {
+          "base": ""
+        }
+      },
+      "builder": {
+        "canDelete": true,
+        "canSelect": true,
+        "canDragDrop": true,
+        "canMove": true,
+        "canTemplate": true,
+        "itemsAllowed": [],
+        "itemsNotAllowed": []
+      },
+      "bindingsAllowed": {
+        "attributes": [],
+        "initialState": [
+          {
+            "path": "visibility",
+            "label": "Visibility"
+          },
+          {
+            "path": "styleSelectors.base",
+            "label": "Selector - Base"
+          }
+        ]
+      },
+      "defaultStyle": {
+        "name": "Lottie",
+        "displayMode": "desktop",
+        "style": {
+          "base": {
+            "min-width": "50px",
+            "min-height": "50px"
+          }
+        }
+      }
+    }
+  },
+  "assets": {
+    "plitzi-plugin-lottie.css": {
+      "src": "plitzi-plugin-lottie.css",
+      "integrity": "sha384-XRDyqEWwBnhZFDlb8A7F2FOwPBsl2MpFlbOgRHmzzqnuHDk37+i11R1Rb++NdkhP",
+      "type": "style",
+      "srcPath": "/plitzi-plugin-lottie/plitzi-plugin-lottie.css"
+    },
+    "plitzi-plugin-lottie.js": {
+      "src": "plitzi-plugin-lottie.js",
+      "integrity": "sha384-y03z5oUQsl4hdhQAjmGieabolrshoR7c/O0qHx0uS1P4iZSkw7RAT3b2j0twtPqx",
+      "type": "script",
+      "srcPath": "/plitzi-plugin-lottie/plitzi-plugin-lottie.js"
+    }
+  }
+}

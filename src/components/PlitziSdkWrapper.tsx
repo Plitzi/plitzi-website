@@ -1,5 +1,13 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 'use client';
 
+import Input from '@plitzi/plitzi-ui/Input';
+// eslint-disable-next-line
+// @ts-ignore
+import PluginLottie from '@plitzi/plitzi-plugin-lottie';
+// eslint-disable-next-line
+// @ts-ignore
+import PluginTyped from '@plitzi/plitzi-plugin-typed';
 // eslint-disable-next-line
 // @ts-ignore
 import PlitziSdk from '@plitzi/plitzi-sdk';
@@ -75,6 +83,8 @@ const PlitziSdkWrapper = ({
         apiKey="wtf"
         internalProps={{ apiKey: 'wtf' }}
       />
+      {/* <PlitziSdk.Plugin renderType="typed" component={PluginTyped} /> */}
+      <PlitziSdk.Plugin renderType="lottie" component={PluginLottie} />
     </PlitziSdk>
   );
 };
