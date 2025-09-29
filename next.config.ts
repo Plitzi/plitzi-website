@@ -15,10 +15,7 @@ const nextConfig: NextConfig = {
   rewrites() {
     return Promise.resolve([
       // Rewrite everything else to use `pages/index`
-      {
-        source: '/:path*',
-        destination: '/'
-      }
+      { source: '/:path*', destination: '/' }
     ]);
   }
 };

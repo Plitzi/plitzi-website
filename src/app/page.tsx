@@ -1,6 +1,3 @@
-'use client';
-
-// import PlitziSdkWrapper from '@/components/PlitziSdkWrapper';
 import SdkLoader from '@/components/SdkLoader';
 
 export default function Home() {
@@ -20,8 +17,6 @@ export default function Home() {
       // debugMode={sdkEnvironment === 'development'}
       // offlineMode={!!offlineData && Object.keys(offlineData).length > 0}
       // offlineData={offlineData}
-    >
-      {/* <PlitziSdk.default.Plugin renderType="plitziBuilder" component={PlitziBuilderWrapper} /> */}
-    </SdkLoader>
+    />
   );
 }
