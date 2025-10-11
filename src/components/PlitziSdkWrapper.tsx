@@ -17,11 +17,13 @@ import { getEnvironmentServer } from '@/config';
 
 import PlitziBuilderWrapper from './PlitziBuilderWrapper';
 
+import type { SDKEnvironment } from '@/config';
+
 export type PlitziSdkWrapperProps = {
   className?: string;
   previewMode?: boolean;
   environment?: 'production' | 'staging' | 'development' | 'main';
-  sdkEnvironment?: 'production' | 'staging' | 'development';
+  sdkEnvironment?: SDKEnvironment;
   webKey: string;
   externalStyle?: string;
   basePath?: string;
@@ -51,7 +53,7 @@ const PlitziSdkWrapper = ({
   className = '',
   previewMode = false,
   environment = 'main',
-  sdkEnvironment = 'development',
+  sdkEnvironment = 'local',
   webKey, //  = '',
   externalStyle = '',
   basePath = '',
@@ -73,7 +75,7 @@ const PlitziSdkWrapper = ({
       server={serverMemo}
       previewMode={previewMode}
       renderMode={renderMode}
-      debugMode={sdkEnvironment === 'development'}
+      debugMode={sdkEnvironment === 'local'}
       // offlineMode={!!offlineData && Object.keys(offlineData).length > 0}
       // offlineData={offlineData}
     >
