@@ -84,6 +84,7 @@ const PlitziSdkWrapper = ({
         component={PlitziBuilderWrapper}
         apiKey="wtf"
         internalProps={{ apiKey: 'wtf' }}
+        builderEnvironment={sdkEnvironment}
       />
       {/* <PlitziSdk.Plugin renderType="typed" component={PluginTyped} />
       <PlitziSdk.Plugin renderType="lottie" component={PluginLottie} /> */}

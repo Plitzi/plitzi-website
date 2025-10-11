@@ -16,6 +16,7 @@ import { Suspense, use, useMemo } from 'react';
 
 import { getEnvironmentServer } from '@/config';
 
+import type { SDKEnvironment } from '@/config';
 import type { RefObject } from 'react';
 
 // import BuilderIntro from '@modules/spaces/components/BuilderIntro';
@@ -35,7 +36,7 @@ export type PlitziBuilderWrapperProps = {
   graphqlServer?: string;
   websocketServer?: string;
   subscriptionServer?: string;
-  builderEnvironment?: string;
+  builderEnvironment?: SDKEnvironment;
 };
 
 const PlitziBuilderWrapper = ({
@@ -49,7 +50,7 @@ const PlitziBuilderWrapper = ({
   // graphqlServer = 'https://server.plitzi.com/graphql',
   // websocketServer = 'wss://server.plitzi.com',
   // subscriptionServer = 'wss://server.plitzi.com/subscriptions',
-  builderEnvironment = 'production'
+  builderEnvironment = 'local'
 }: PlitziBuilderWrapperProps) => {
   const {
     // settings: { previewMode },
