@@ -14,8 +14,6 @@ import ContainerShadow from '@plitzi/plitzi-ui/ContainerShadow/index.cjs';
 import classNames from 'classnames';
 import { Suspense, use, useMemo } from 'react';
 
-import { getEnvironmentServer } from '@/config';
-
 import type { SDKEnvironment } from '@/config';
 import type { RefObject } from 'react';
 
@@ -50,7 +48,7 @@ const PlitziBuilderWrapper = ({
   // graphqlServer = 'https://server.plitzi.com/graphql',
   // websocketServer = 'wss://server.plitzi.com',
   // subscriptionServer = 'wss://server.plitzi.com/subscriptions',
-  builderEnvironment = 'local'
+  builderEnvironment = 'production'
 }: PlitziBuilderWrapperProps) => {
   const {
     // settings: { previewMode },
@@ -74,11 +72,7 @@ const PlitziBuilderWrapper = ({
   //   [spaceId, apiServer, nodeServer, graphqlServer, websocketServer, subscriptionServer]
   // );
 
-  const sdkEnvironment = process.env.NODE_ENV === 'production' ? 'production' : 'development';
-  const serverMemo = useMemo(
-    () => ({ basePath: `/spaces/${spaceId}/update`, ...getEnvironmentServer(sdkEnvironment) }),
-    [spaceId, sdkEnvironment]
-  );
+  const serverMemo = useMemo(() => ({ basePath: `/spaces/${spaceId}/update` }), [spaceId]);
 
   return (
     <RootElement

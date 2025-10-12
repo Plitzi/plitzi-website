@@ -1192,23 +1192,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/plitzi-builder@npm:^0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/plitzi-builder@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-builder%2F0.24.8%2F72b4db2e780ae86a043a858965a18d5a02f73b1b"
+"@plitzi/plitzi-builder@npm:^0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/plitzi-builder@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-builder%2F0.24.10%2F7ea37ce6bff21be5ce5700d3573770572dff0b55"
   dependencies:
     "@apollo/client": "npm:^4.0.7"
-    "@plitzi/plitzi-sdk": "npm:0.24.8"
-    "@plitzi/plitzi-ui": "npm:^1.0.9"
-    "@plitzi/sdk-auth": "npm:0.24.8"
-    "@plitzi/sdk-event-bridge": "npm:0.24.8"
-    "@plitzi/sdk-interactions": "npm:0.24.8"
-    "@plitzi/sdk-navigation": "npm:0.24.8"
-    "@plitzi/sdk-plugins": "npm:0.24.8"
-    "@plitzi/sdk-schema": "npm:0.24.8"
-    "@plitzi/sdk-shared": "npm:0.24.8"
-    "@plitzi/sdk-state": "npm:0.24.8"
-    "@plitzi/sdk-style": "npm:0.24.8"
-    "@plitzi/sdk-variables": "npm:0.24.8"
+    "@plitzi/plitzi-sdk": "npm:0.24.10"
+    "@plitzi/plitzi-ui": "npm:^1.0.10"
+    "@plitzi/sdk-auth": "npm:0.24.10"
+    "@plitzi/sdk-event-bridge": "npm:0.24.10"
+    "@plitzi/sdk-interactions": "npm:0.24.10"
+    "@plitzi/sdk-navigation": "npm:0.24.10"
+    "@plitzi/sdk-plugins": "npm:0.24.10"
+    "@plitzi/sdk-schema": "npm:0.24.10"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    "@plitzi/sdk-state": "npm:0.24.10"
+    "@plitzi/sdk-style": "npm:0.24.10"
+    "@plitzi/sdk-variables": "npm:0.24.10"
     apollo-upload-client: "npm:^19.0.0"
     classnames: "npm:^2.5.1"
     graphql: "npm:^16.11.0"
@@ -1217,7 +1217,7 @@ __metadata:
     jszip: "npm:^3.10.1"
     lodash: "npm:^4.17.21"
     moment: "npm:^2.30.1"
-    react-hook-form: "npm:^7.64.0"
+    react-hook-form: "npm:^7.65.0"
     react-router-dom: "npm:^7.9.4"
     swr: "npm:^2.3.6"
     twig: "npm:^1.17.1"
@@ -1226,7 +1226,7 @@ __metadata:
   peerDependencies:
     react: ^19.1.1
     react-dom: ^19.1.1
-  checksum: 10c0/562bb8a53a9a22f3da79b90dbb2edea203310f862a13b997dbef88f3d627a3484cbba635897ae77159a68e36807b4f36c45f904560780d459c37780299eed652
+  checksum: 10c0/b1793f0687a65f40288d9bdc85f0ba77423961253cce04c2f160d7d523a42468f462ccf9f9901168388df1954c8f12b5f709071c69f1a179e3025a7c6ee5bd4a
   languageName: node
   linkType: hard
 
@@ -1260,24 +1260,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/plitzi-sdk@npm:0.24.8, @plitzi/plitzi-sdk@npm:^0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/plitzi-sdk@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-sdk%2F0.24.8%2F36630a7f8f931896acbd529b0a7f014ae2670947"
+"@plitzi/plitzi-sdk@npm:0.24.10, @plitzi/plitzi-sdk@npm:^0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/plitzi-sdk@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Plitzi%2Fplitzi-sdk%2F0.24.10%2Fb19e9edf3c2beabc0250608296f49ce44bad79d9"
   dependencies:
     "@apollo/client": "npm:^4.0.7"
     "@auth0/auth0-react": "npm:^2.6.0"
-    "@plitzi/sdk-auth": "npm:0.24.8"
-    "@plitzi/sdk-dev-tools": "npm:0.24.8"
-    "@plitzi/sdk-elements": "npm:0.24.8"
-    "@plitzi/sdk-event-bridge": "npm:0.24.8"
-    "@plitzi/sdk-interactions": "npm:0.24.8"
-    "@plitzi/sdk-navigation": "npm:0.24.8"
-    "@plitzi/sdk-plugins": "npm:0.24.8"
-    "@plitzi/sdk-schema": "npm:0.24.8"
-    "@plitzi/sdk-shared": "npm:0.24.8"
-    "@plitzi/sdk-state": "npm:0.24.8"
-    "@plitzi/sdk-style": "npm:0.24.8"
-    "@plitzi/sdk-variables": "npm:0.24.8"
+    "@plitzi/sdk-auth": "npm:0.24.10"
+    "@plitzi/sdk-dev-tools": "npm:0.24.10"
+    "@plitzi/sdk-elements": "npm:0.24.10"
+    "@plitzi/sdk-event-bridge": "npm:0.24.10"
+    "@plitzi/sdk-interactions": "npm:0.24.10"
+    "@plitzi/sdk-navigation": "npm:0.24.10"
+    "@plitzi/sdk-plugins": "npm:0.24.10"
+    "@plitzi/sdk-schema": "npm:0.24.10"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    "@plitzi/sdk-state": "npm:0.24.10"
+    "@plitzi/sdk-style": "npm:0.24.10"
+    "@plitzi/sdk-variables": "npm:0.24.10"
     apollo3-cache-persist: "npm:^0.15.0"
     classnames: "npm:^2.5.1"
     graphql: "npm:^16.11.0"
@@ -1291,7 +1291,7 @@ __metadata:
   peerDependencies:
     react: ^19.1.1
     react-dom: ^19.1.1
-  checksum: 10c0/4c78790dd3b450714a2e5759c4d04bb9e59d1ee5bb94b621f44bb42ac315ce7d188957c8b8cb18d08beb9ddb0cf5682571fec9fc46fd19962222b75ca84113ec
+  checksum: 10c0/46fc1ad713b656a6aafadce1f508e5d24373ef0f96babae4754d167a888a03c556ec4e2ee5655f615a1f2c69be83d6f9a926b0d39dec4c3cc82777ab437b7579
   languageName: node
   linkType: hard
 
@@ -1400,9 +1400,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/plitzi-ui@npm:^1.0.9":
-  version: 1.0.9
-  resolution: "@plitzi/plitzi-ui@npm:1.0.9::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fplitzi-ui%2F1.0.9%2Fcd3d525126a8028bb566f02dceb98195d8d7db19"
+"@plitzi/plitzi-ui@npm:^1.0.10":
+  version: 1.0.10
+  resolution: "@plitzi/plitzi-ui@npm:1.0.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fplitzi-ui%2F1.0.10%2Fcd1d4d412ef32b913b2a29d25d7a22504312a7ac"
   dependencies:
     "@codemirror/autocomplete": "npm:^6.19.0"
     "@codemirror/commands": "npm:^6.9.0"
@@ -1423,7 +1423,7 @@ __metadata:
     react: "npm:^19.2.0"
     react-color: "npm:^2.19.3"
     react-dom: "npm:^19.2.0"
-    react-hook-form: "npm:^7.64.0"
+    react-hook-form: "npm:^7.65.0"
     react-markdown: "npm:^10.1.0"
     react-syntax-highlighter: "npm:^15.6.6"
     react-toastify: "npm:^11.0.5"
@@ -1433,7 +1433,7 @@ __metadata:
     tinycolor2: "npm:^1.6.0"
     uuid: "npm:^13.0.0"
     zod: "npm:^4.1.12"
-  checksum: 10c0/173ee75f13f0ec35168b16cb8cfc52485354dc9be1d10b50723dd9b3de8b20668c11dac8bae7d9f1f644f642ea102cd11bb10994e48884cccf885ddb0b7c07b3
+  checksum: 10c0/9e58165fe8b4f7b41b453249082ba19614799d3b509c5cba6189642dff2d29208411d71bee90308bf93ea4b0365e9f4e369b4ea8c84b9eda261a7aa2db29cfa1
   languageName: node
   linkType: hard
 
@@ -1451,14 +1451,14 @@ __metadata:
   resolution: "@plitzi/plitzi-website@workspace:."
   dependencies:
     "@next/eslint-plugin-next": "npm:^15.5.4"
-    "@plitzi/plitzi-builder": "npm:^0.24.8"
+    "@plitzi/plitzi-builder": "npm:^0.24.10"
     "@plitzi/plitzi-plugin-lottie": "npm:^0.6.2"
     "@plitzi/plitzi-plugin-typed": "npm:^0.6.1"
-    "@plitzi/plitzi-sdk": "npm:^0.24.8"
-    "@plitzi/plitzi-ui": "npm:^1.0.9"
+    "@plitzi/plitzi-sdk": "npm:^0.24.10"
+    "@plitzi/plitzi-ui": "npm:^1.0.10"
     "@plitzi/plitzi-webpack": "npm:^0.3.6"
     "@tailwindcss/postcss": "npm:^4.1.14"
-    "@types/node": "npm:^24.7.1"
+    "@types/node": "npm:^24.7.2"
     "@types/react": "npm:^19.2.2"
     "@types/react-dom": "npm:^19.2.1"
     classnames: "npm:^2.5.1"
@@ -1483,6 +1483,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@plitzi/sdk-auth@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-auth@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-auth%2F0.24.10%2Ff81c75017b9c83ab5ca836c090434f2036b05d50"
+  dependencies:
+    "@plitzi/plitzi-ui": "npm:^1.0.10"
+    "@plitzi/sdk-navigation": "npm:0.24.10"
+    "@plitzi/sdk-schema": "npm:0.24.10"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    lodash: "npm:^4.17.21"
+    moment: "npm:^2.30.1"
+  checksum: 10c0/00c4906be0b57f2ddbfde192390f1a69b23c37ba15175a2bf3bbb887736f41b10abc2b8f2901446497f964a7f5512111064bf78acda8909b3f300667abb243ed
+  languageName: node
+  linkType: hard
+
 "@plitzi/sdk-auth@npm:0.24.6":
   version: 0.24.6
   resolution: "@plitzi/sdk-auth@npm:0.24.6::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-auth%2F0.24.6%2F5e0413378839fc31208429214be95b222614a707"
@@ -1497,17 +1511,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-auth@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-auth@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-auth%2F0.24.8%2F0cad680f322d98dfb320f20f1156cfd841413d13"
+"@plitzi/sdk-data-source@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-data-source@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-data-source%2F0.24.10%2F8680939773db41fb3c3d03fba0ff26ce6df3bfa2"
   dependencies:
-    "@plitzi/plitzi-ui": "npm:^1.0.9"
-    "@plitzi/sdk-navigation": "npm:0.24.8"
-    "@plitzi/sdk-schema": "npm:0.24.8"
-    "@plitzi/sdk-shared": "npm:0.24.8"
+    "@plitzi/sdk-auth": "npm:0.24.10"
+    "@plitzi/sdk-event-bridge": "npm:0.24.10"
+    "@plitzi/sdk-navigation": "npm:0.24.10"
+    "@plitzi/sdk-schema": "npm:0.24.10"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    "@plitzi/sdk-state": "npm:0.24.10"
     lodash: "npm:^4.17.21"
     moment: "npm:^2.30.1"
-  checksum: 10c0/54364146c8862451769c371b22f688cbd78254fde5740160269b4f0010ccc100fe9acbb37a7752905daff40e7da94ee6e2183124801173137b708f52f0a6827b
+  checksum: 10c0/ed68c15de2e4d12a7124f466d19e0a1c2a82f3813ba8c445af74fb79025860407f01cd5f72d0ac0e8b7f7938e2275bc9a22689c33b46f4f32dc1f975dafcc3aa
   languageName: node
   linkType: hard
 
@@ -1527,19 +1543,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-data-source@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-data-source@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-data-source%2F0.24.8%2F9e20bef4b3fcf3c081303038843bc473753d2b8b"
+"@plitzi/sdk-dev-tools@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-dev-tools@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-dev-tools%2F0.24.10%2F263ca5bf35d1c93d4b3c10405b23a420d68c1d0d"
   dependencies:
-    "@plitzi/sdk-auth": "npm:0.24.8"
-    "@plitzi/sdk-event-bridge": "npm:0.24.8"
-    "@plitzi/sdk-navigation": "npm:0.24.8"
-    "@plitzi/sdk-schema": "npm:0.24.8"
-    "@plitzi/sdk-shared": "npm:0.24.8"
-    "@plitzi/sdk-state": "npm:0.24.8"
+    "@plitzi/sdk-data-source": "npm:0.24.10"
+    "@plitzi/sdk-navigation": "npm:0.24.10"
+    "@plitzi/sdk-schema": "npm:0.24.10"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    "@uiw/react-json-view": "npm:^2.0.0-alpha.39"
+    classnames: "npm:^2.5.1"
     lodash: "npm:^4.17.21"
     moment: "npm:^2.30.1"
-  checksum: 10c0/e6eb7b9fab5dbb6c440292a123cced204a7b2428f37434d798336a09bcce0534baaff29e66c6d14ee7aaa45714648546c2258ba8a809142945e8b14b76daaeab
+  peerDependencies:
+    react: ^19.1.1
+    react-dom: ^19.1.1
+  checksum: 10c0/0894d94fe5c312ec4fc53bb1c34e0482bcdefbae9e474c33545902dce5e759c9ea4e8a1280dd5efa4599b8f5d2866a6cfcbae3d73e125fc61d14b1af5e03a938
   languageName: node
   linkType: hard
 
@@ -1561,22 +1580,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-dev-tools@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-dev-tools@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-dev-tools%2F0.24.8%2F00be6e728b16fae24503a5ac0c5429e30d1bdf6f"
+"@plitzi/sdk-elements@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-elements@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-elements%2F0.24.10%2F750074a2d5c3b4bac1d348051b535693efe1b4fe"
   dependencies:
-    "@plitzi/sdk-data-source": "npm:0.24.8"
-    "@plitzi/sdk-navigation": "npm:0.24.8"
-    "@plitzi/sdk-schema": "npm:0.24.8"
-    "@plitzi/sdk-shared": "npm:0.24.8"
-    "@uiw/react-json-view": "npm:^2.0.0-alpha.39"
-    classnames: "npm:^2.5.1"
+    "@plitzi/sdk-data-source": "npm:0.24.10"
+    "@plitzi/sdk-dev-tools": "npm:0.24.10"
+    "@plitzi/sdk-event-bridge": "npm:0.24.10"
+    "@plitzi/sdk-interactions": "npm:0.24.10"
+    "@plitzi/sdk-schema": "npm:0.24.10"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    immer: "npm:^10.1.3"
     lodash: "npm:^4.17.21"
-    moment: "npm:^2.30.1"
-  peerDependencies:
-    react: ^19.1.1
-    react-dom: ^19.1.1
-  checksum: 10c0/506b41b5c876a626802e092d34930753e7d00dad9c6238926bfabd5d439ce92e7db81b3528b8cd6c55bfdf9fa5b40d74c6a0a96b3799123411607f522032b9fa
+  checksum: 10c0/e87bf550d8b1619567e13992c75a816449150823536eefb57d0cd9bd5d69f9b9799f8b871c352866d1b61d38ed17bf6f72be05539481f8990cfa39c12ecbff71
   languageName: node
   linkType: hard
 
@@ -1596,19 +1612,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-elements@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-elements@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-elements%2F0.24.8%2Fd59ae2e695353e2683293c2f53eeadb2f6702b6f"
+"@plitzi/sdk-event-bridge@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-event-bridge@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-event-bridge%2F0.24.10%2F6d6d3c6cc6621acf151e6011afc0d0ea8a829623"
   dependencies:
-    "@plitzi/sdk-data-source": "npm:0.24.8"
-    "@plitzi/sdk-dev-tools": "npm:0.24.8"
-    "@plitzi/sdk-event-bridge": "npm:0.24.8"
-    "@plitzi/sdk-interactions": "npm:0.24.8"
-    "@plitzi/sdk-schema": "npm:0.24.8"
-    "@plitzi/sdk-shared": "npm:0.24.8"
-    immer: "npm:^10.1.3"
+    "@plitzi/sdk-shared": "npm:0.24.10"
     lodash: "npm:^4.17.21"
-  checksum: 10c0/31abdbbd3e32fe5b1efabe3ce228ea7db3c33032a994f2d3b942ca9724bbb2b3f601af0c80f0acad1536b3efb6725d47d4bca426003e3efbc4033a80acd1b2be
+    prop-types: "npm:^15.8.1"
+  checksum: 10c0/59f29c01ea3519f84df72b448907028e0b9eb096af6c292719ce379ce028455043a967a2c270bec4fc96798b06d4af424766b32d4f7bcc7cb32b9f184598d23f
   languageName: node
   linkType: hard
 
@@ -1623,14 +1634,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-event-bridge@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-event-bridge@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-event-bridge%2F0.24.8%2F616678edf345ee93ddc01e6fb38449d6799eb9a4"
+"@plitzi/sdk-interactions@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-interactions@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-interactions%2F0.24.10%2F09d521e87c15f0c7abfe98415b874b96a9716529"
   dependencies:
-    "@plitzi/sdk-shared": "npm:0.24.8"
+    "@plitzi/plitzi-ui": "npm:^1.0.10"
+    "@plitzi/sdk-auth": "npm:0.24.10"
+    "@plitzi/sdk-dev-tools": "npm:0.24.10"
+    "@plitzi/sdk-event-bridge": "npm:0.24.10"
+    "@plitzi/sdk-shared": "npm:0.24.10"
     lodash: "npm:^4.17.21"
-    prop-types: "npm:^15.8.1"
-  checksum: 10c0/a32ebb037831af8dbf1c4cd650422e792bcfd918a3909fa74091fc2b9a9a8497f86ea2c9a1a6801edf06f0d1b0f426c8472b9b3aae6293747bf969304eed24b8
+  checksum: 10c0/1ce0b0729255c5ed7696178d3dad8849033cdb9bdcf96dba59155e8886f7828d0f102530269b3463a6aa54aec598e631eb1246e0a22d366ec8bd3480537a3c99
   languageName: node
   linkType: hard
 
@@ -1648,17 +1662,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-interactions@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-interactions@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-interactions%2F0.24.8%2F6b8392332b110d75bd1d9b1385f6c9c8bd174185"
+"@plitzi/sdk-navigation@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-navigation@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-navigation%2F0.24.10%2F5bd2ecf3c617e576af9a4edc2183e7024a554685"
   dependencies:
-    "@plitzi/plitzi-ui": "npm:^1.0.9"
-    "@plitzi/sdk-auth": "npm:0.24.8"
-    "@plitzi/sdk-dev-tools": "npm:0.24.8"
-    "@plitzi/sdk-event-bridge": "npm:0.24.8"
-    "@plitzi/sdk-shared": "npm:0.24.8"
+    "@plitzi/sdk-shared": "npm:0.24.10"
     lodash: "npm:^4.17.21"
-  checksum: 10c0/049b93886eca8022f168f43a257cacf7eb604fefd6a434b7bda22a2464bdd94fe051e9eaf396446ad2c717e9152bee053fffec19420b76fee2fe264aac2b5dac
+    react-router: "npm:^7.9.4"
+    react-router-dom: "npm:^7.9.4"
+  peerDependencies:
+    react: ^19.1.1
+    react-dom: ^19.1.1
+  checksum: 10c0/2842a1e811169a3874587661e7295195788476f7ce06cdb86b10daf850e49c0772593363fdec9c0c881b686b7a605d40f012fede0341547c82553eb36033d967
   languageName: node
   linkType: hard
 
@@ -1676,18 +1691,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-navigation@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-navigation@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-navigation%2F0.24.8%2F0e31802c8b721e4eb5c6f8dbf43c9d9e4c70abf9"
+"@plitzi/sdk-plugins@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-plugins@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-plugins%2F0.24.10%2F3cccfd7a190f9392ecae7df022b22f7d91d303ec"
   dependencies:
-    "@plitzi/sdk-shared": "npm:0.24.8"
+    "@plitzi/sdk-shared": "npm:0.24.10"
     lodash: "npm:^4.17.21"
-    react-router: "npm:^7.9.4"
-    react-router-dom: "npm:^7.9.4"
-  peerDependencies:
-    react: ^19.1.1
-    react-dom: ^19.1.1
-  checksum: 10c0/1d9a60f1c01614edb636ce669e7a26e7035931b7cd53f583d994ab5a5290df37bee2202f238bc4686c52dc85abfedd5a331cf39750eac86a09bb3d67680fc8c4
+    prop-types: "npm:^15.8.1"
+  checksum: 10c0/299a08de0db3e0aa691929efbe20de4fd1e09d274bc8b503894ffa063e9cf5cc45f085b563518afc89995deac0d76e628aef43455b3e302279ea753f1f534203
   languageName: node
   linkType: hard
 
@@ -1702,14 +1713,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-plugins@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-plugins@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-plugins%2F0.24.8%2F9b7a2dc1e2d4a7d99c4c7739e493c385d334121e"
+"@plitzi/sdk-schema@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-schema@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-schema%2F0.24.10%2F5ee2807a87f68e0a20c90d9688d7ff6e80ae0f3a"
   dependencies:
-    "@plitzi/sdk-shared": "npm:0.24.8"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    "@plitzi/sdk-style": "npm:0.24.10"
     lodash: "npm:^4.17.21"
     prop-types: "npm:^15.8.1"
-  checksum: 10c0/4daea76ab218542d143f682dc8ab9f0bd406ad3ab960a4faa3db374bb7e86b5524b87ad9c27f586555c4f5f14e42eb1a21874b011f93abe1b9395764b7af9608
+  checksum: 10c0/1ba6623b93917f804380d1c5249e038ab2c98f519966d9b646bf205f978e240bfcb127279a7aef4e8b6eebd7b8db41f68255ca657a7bdcfa8911ae3d8177a240
   languageName: node
   linkType: hard
 
@@ -1725,15 +1737,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-schema@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-schema@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-schema%2F0.24.8%2Ffeee5a5c4d79c080d56da2991e3fa93276a5032c"
+"@plitzi/sdk-shared@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-shared@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-shared%2F0.24.10%2Fe1557e97e07c9bf8df2c7892e38993d5aee3e357"
   dependencies:
-    "@plitzi/sdk-shared": "npm:0.24.8"
-    "@plitzi/sdk-style": "npm:0.24.8"
+    "@plitzi/plitzi-ui": "npm:^1.0.10"
     lodash: "npm:^4.17.21"
-    prop-types: "npm:^15.8.1"
-  checksum: 10c0/39d4a9a0754224633b78fafb618fbfac4d4091f9840c4736579130edb7da7f38a4191a3df0e3d139ef6d1a75981bcaa70624375e7679bb9d437c50e1f8f5d6ff
+    twig: "npm:^1.17.1"
+  peerDependencies:
+    react: ^19.1.1
+    react-dom: ^19.1.1
+  checksum: 10c0/e646556b961bcc800af2ba68ad849882c476623f59ef0dbf54399c398c7ce285c57b479805d897e80fd55eace6d174d86db2c0b523ab9740824b291b52a0eecb
   languageName: node
   linkType: hard
 
@@ -1750,17 +1764,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-shared@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-shared@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-shared%2F0.24.8%2F65595c66e488d7b3a9afa539073b1ec7b1099c54"
+"@plitzi/sdk-state@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-state@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-state%2F0.24.10%2F90d6b843f91b16bf42e7351540c4ec40eb4539ce"
   dependencies:
-    "@plitzi/plitzi-ui": "npm:^1.0.9"
+    "@plitzi/sdk-schema": "npm:0.24.10"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    immer: "npm:^10.1.3"
     lodash: "npm:^4.17.21"
-    twig: "npm:^1.17.1"
-  peerDependencies:
-    react: ^19.1.1
-    react-dom: ^19.1.1
-  checksum: 10c0/d6f95d302256f387bd37ec945b3c33ffb2584a68d5f962d73967b2271fbdd09a1d5a3623ef9c2eab4d768f767b1087fcf3df705e26d185e8e8264c38c1739215
+  checksum: 10c0/154204ad2cc5fb2613bc045de230b995cd78af0914154ad9de524170948b28b4fc05210e40cb3464b17a4506cede0cb0cfb53a42ff9a996f1515b71ebf2c4c3f
   languageName: node
   linkType: hard
 
@@ -1776,15 +1788,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-state@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-state@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-state%2F0.24.8%2Ff19889b09fa4e062cbd684c15c0afeebf9f2b406"
+"@plitzi/sdk-style@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-style@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-style%2F0.24.10%2F16e17a006300de00c8bb8656be45297d381e8a1f"
   dependencies:
-    "@plitzi/sdk-schema": "npm:0.24.8"
-    "@plitzi/sdk-shared": "npm:0.24.8"
+    "@plitzi/plitzi-ui": "npm:^1.0.10"
+    "@plitzi/sdk-plugins": "npm:0.24.10"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    classnames: "npm:^2.5.1"
     immer: "npm:^10.1.3"
     lodash: "npm:^4.17.21"
-  checksum: 10c0/5471ac35f44efe51e8b023a855a2b629e329fe1129e3495d8002b6052433dab7bfa963749a4b83dce8613c3e9abebb495cfeb2707aa447c6522203a705ba230a
+    prop-types: "npm:^15.8.1"
+    zod: "npm:^4.1.12"
+  checksum: 10c0/aea9e115cb0ac891e3ae7eb433c64cb7a82eaef8ef61fba59f18317dca70e1c2c0525e7c08408f0af352d925651d557a4173ec363046efe29bb576cb6d59d758
   languageName: node
   linkType: hard
 
@@ -1804,19 +1820,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plitzi/sdk-style@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-style@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-style%2F0.24.8%2F85dad90b629f117352cc31888d91cf93a78a2b95"
+"@plitzi/sdk-variables@npm:0.24.10":
+  version: 0.24.10
+  resolution: "@plitzi/sdk-variables@npm:0.24.10::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-variables%2F0.24.10%2Fd9c14ef73abbabd2059e6be7aea795c5ec9c1ea3"
   dependencies:
-    "@plitzi/plitzi-ui": "npm:^1.0.9"
-    "@plitzi/sdk-plugins": "npm:0.24.8"
-    "@plitzi/sdk-shared": "npm:0.24.8"
-    classnames: "npm:^2.5.1"
-    immer: "npm:^10.1.3"
+    "@plitzi/sdk-shared": "npm:0.24.10"
+    eslint: "npm:^9.37.0"
     lodash: "npm:^4.17.21"
-    prop-types: "npm:^15.8.1"
-    zod: "npm:^4.1.12"
-  checksum: 10c0/2d94d7bb3fcd6ca015628a99057f9a70531e31da48525b27e3ed1a92ca4a1b59afd4b1434621e5598807c212b229f502a6e5eb8f753097c11d0199432e59542f
+  checksum: 10c0/b3bf8c8dd89fa373b3cfcc3d93d8e2f3db8dac943abcf98342d57548a9deeb0e3a92262b3f5f7e072a288a05905bed33d1376dffebc8e27fc658966a859ee30a
   languageName: node
   linkType: hard
 
@@ -1828,17 +1839,6 @@ __metadata:
     eslint: "npm:^9.35.0"
     lodash: "npm:^4.17.21"
   checksum: 10c0/4b1767f52d62e7f6d6f78cdad68dabb3538bf0099e68529fce9b5a1bd121a5e53378015c0919ec18872368d40581015c0d416db47e2aa38b56fb9f662d020602
-  languageName: node
-  linkType: hard
-
-"@plitzi/sdk-variables@npm:0.24.8":
-  version: 0.24.8
-  resolution: "@plitzi/sdk-variables@npm:0.24.8::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40plitzi%2Fsdk-variables%2F0.24.8%2F9b4e206f0fa8506af86a3450b771d110f496405a"
-  dependencies:
-    "@plitzi/sdk-shared": "npm:0.24.8"
-    eslint: "npm:^9.37.0"
-    lodash: "npm:^4.17.21"
-  checksum: 10c0/b1334cf5760144088038f109165bc4f62dc90c6ea193ef270a21b21be28feb14b7b8ce3268c5a946f3092556e4a6ccf1e9ce5b823e25d935564cd3190fdafa8f
   languageName: node
   linkType: hard
 
@@ -2142,12 +2142,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.7.1":
-  version: 24.7.1
-  resolution: "@types/node@npm:24.7.1"
+"@types/node@npm:^24.7.2":
+  version: 24.7.2
+  resolution: "@types/node@npm:24.7.2"
   dependencies:
     undici-types: "npm:~7.14.0"
-  checksum: 10c0/2525f2aa865d78b1c75faaf8c6bf2af51c930962d8078306620d9a76eafcbbea035142cf2cdc2fcf1b4010cd3958a1c6c59b67aba1ac205dc1e5f895ef6af673
+  checksum: 10c0/03f662f10e4b89bc97016e067101cbabe55025b54c24afb581fb50992d5eeaaf417bdae34bbc668ae8759d3cdbbbadf35fc8b9b29d26f52ede2525d48e919e49
   languageName: node
   linkType: hard
 
@@ -6629,12 +6629,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-hook-form@npm:^7.64.0":
-  version: 7.64.0
-  resolution: "react-hook-form@npm:7.64.0"
+"react-hook-form@npm:^7.65.0":
+  version: 7.65.0
+  resolution: "react-hook-form@npm:7.65.0"
   peerDependencies:
     react: ^16.8.0 || ^17 || ^18 || ^19
-  checksum: 10c0/d21e7c06cb5dfe8f82724350096d6d85fd1a84b2ae1a9d1fb8c084212ea9f7a7483bd9b90b5a5ab4a4ccd744c96c840718df68d6ecf31beedf4e9a33fc9a94c4
+  checksum: 10c0/119afeaf33510d1ed6c12109f03d22d9e88f9eb01b8e4fb3cd8f40d5fc113cbcfc6154789d1d143151de8119bd08ffc7214d504e0e550ea28a9051ed6a30ae28
   languageName: node
   linkType: hard
 

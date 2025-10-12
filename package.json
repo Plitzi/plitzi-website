@@ -10,11 +10,11 @@
   },
   "packageManager": "yarn@4.9.4",
   "dependencies": {
-    "@plitzi/plitzi-builder": "^0.24.8",
+    "@plitzi/plitzi-builder": "^0.24.10",
     "@plitzi/plitzi-plugin-lottie": "^0.6.2",
     "@plitzi/plitzi-plugin-typed": "^0.6.1",
-    "@plitzi/plitzi-sdk": "^0.24.8",
-    "@plitzi/plitzi-ui": "^1.0.9",
+    "@plitzi/plitzi-sdk": "^0.24.10",
+    "@plitzi/plitzi-ui": "^1.0.10",
     "@plitzi/plitzi-webpack": "^0.3.6",
     "classnames": "^2.5.1",
     "next": "15.5.4",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.5.4",
     "@tailwindcss/postcss": "^4.1.14",
-    "@types/node": "^24.7.1",
+    "@types/node": "^24.7.2",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.1",
     "eslint": "9.37.0",

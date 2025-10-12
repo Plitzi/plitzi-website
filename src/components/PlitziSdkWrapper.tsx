@@ -53,7 +53,7 @@ const PlitziSdkWrapper = ({
   className = '',
   previewMode = false,
   environment = 'main',
-  sdkEnvironment = 'local',
+  sdkEnvironment = 'production',
   webKey, //  = '',
   externalStyle = '',
   basePath = '',
@@ -82,8 +82,6 @@ const PlitziSdkWrapper = ({
       <PlitziSdk.Plugin
         renderType="plitziBuilder"
         component={PlitziBuilderWrapper}
-        apiKey="wtf"
-        internalProps={{ apiKey: 'wtf' }}
         builderEnvironment={sdkEnvironment}
       />
       {/* <PlitziSdk.Plugin renderType="typed" component={PluginTyped} />
