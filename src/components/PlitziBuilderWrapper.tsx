@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-css-tags */
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
@@ -18,10 +19,6 @@ import type { SDKEnvironment } from '@/config';
 import type { RefObject } from 'react';
 
 // import BuilderIntro from '@modules/spaces/components/BuilderIntro';
-
-// eslint-disable-next-line
-// @ts-ignore
-import styleBuilder from '!!raw-loader!@plitzi/plitzi-builder/dist/plitzi-builder.css';
 
 export type PlitziBuilderWrapperProps = {
   ref?: RefObject<HTMLDivElement | null>;
@@ -86,7 +83,7 @@ const PlitziBuilderWrapper = ({
           crossOrigin="anonymous"
         />
         <ContainerShadow.Content>
-          <style>{styleBuilder}</style>
+          <link href="/plitzi-builder.css" rel="stylesheet" />
           <style>
             {`
           .mt-8 {
