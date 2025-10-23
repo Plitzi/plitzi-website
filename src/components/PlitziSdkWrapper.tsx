@@ -11,7 +11,7 @@
 // eslint-disable-next-line
 // @ts-ignore
 import PlitziSdk from '@plitzi/plitzi-sdk';
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 
 import { getEnvironmentServer } from '@/config';
 

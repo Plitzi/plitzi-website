@@ -1,7 +1,6 @@
 'use client';
 
 import dynamic from 'next/dynamic.js';
-import React from 'react';
 
 import type { PlitziSdkWrapperProps } from './PlitziSdkWrapper.tsx';
 

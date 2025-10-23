@@ -3,13 +3,18 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   reactStrictMode: false,
   /* config options here */
-  // webpack: (config, options) => {
-  //   return config;
-  // }
+  turbopack: {
+    resolveAlias: {
+      react: require.resolve('react'),
+      'react-dom': require.resolve('react-dom')
+    }
+  },
   rewrites() {
     return Promise.resolve([
-      // Rewrite everything else to use `pages/index`
-      { source: '/:path*', destination: '/' }
+      {
+        source: '/:path((?!node_modules|_next|static|favicon\\.ico).*)',
+        destination: '/'
+      }
     ]);
   }
 };
