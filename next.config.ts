@@ -3,12 +3,12 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   reactStrictMode: false,
   /* config options here */
-  turbopack: {
-    resolveAlias: {
-      react: require.resolve('react'),
-      'react-dom': require.resolve('react-dom')
-    }
-  },
+  // turbopack: {
+  //   resolveAlias: {
+  //     react: require.resolve('react'),
+  //     'react-dom': require.resolve('react-dom')
+  //   }
+  // },
   rewrites() {
     return Promise.resolve([
       {
