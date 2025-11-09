@@ -1,4 +1,6 @@
 @import 'tailwindcss';
+@import '@plitzi/plitzi-sdk/plitzi-sdk.css';
+@import '@plitzi/plitzi-builder/dist/plitzi-builder.css';
 
 /* :root {
   --background: #ffffff;
@@ -40,4 +42,9 @@ body {
 
 .h-full {
   height: 100%;
+}
+
+.bg-\[\#5865F2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 101 242 / var(--tw-bg-opacity));
 }

@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-css-tags */
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
@@ -11,7 +10,6 @@ import PlitziBuilder from '@plitzi/plitzi-builder';
 // eslint-disable-next-line
 // @ts-ignore
 import { RootElement, usePlitziServiceContext } from '@plitzi/plitzi-sdk';
-import ContainerShadow from '@plitzi/plitzi-ui/ContainerShadow/index.cjs';
 import classNames from 'classnames';
 import { Suspense, use, useMemo } from 'react';
 
@@ -77,38 +75,16 @@ const PlitziBuilderWrapper = ({
       internalProps={internalProps}
       className={classNames('plitzi-component__plitzi-builder', className)}
     >
-      <ContainerShadow className="flex h-full flex-col">
-        <ContainerShadow.Link
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-          crossOrigin="anonymous"
+      <Suspense>
+        <PlitziBuilder
+          webKey={webKey}
+          environment="main"
+          userKey={userKey}
+          server={serverMemo}
+          className="h-full"
+          builderEnvironment={builderEnvironment}
         />
-        <ContainerShadow.Content>
-          <link href="/plitzi-builder.css" rel="stylesheet" />
-          <style>
-            {`
-          .mt-8 {
-            margin-top: 2rem;
-          }
-
-          .bg-\\[\\#5865F2\\] {
-            --tw-bg-opacity: 1;
-            background-color: rgb(88 101 242 / var(--tw-bg-opacity));
-          }
-        `}
-          </style>
-          <Suspense>
-            <PlitziBuilder
-              webKey={webKey}
-              environment="main"
-              userKey={userKey}
-              server={serverMemo}
-              className="h-full"
-              builderEnvironment={builderEnvironment}
-            />
-          </Suspense>
-          {/* <BuilderIntro /> */}
-        </ContainerShadow.Content>
-      </ContainerShadow>
+      </Suspense>
     </RootElement>
   );
 };
