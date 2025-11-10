@@ -1,21 +1,15 @@
 // /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 'use client';
 
-// import Input from '@plitzi/plitzi-ui/Input';
 // eslint-disable-next-line
 // @ts-ignore
-// import PluginLottie from '@plitzi/plitzi-plugin-lottie';
-// eslint-disable-next-line
-// @ts-ignore
-// import PluginTyped from '@plitzi/plitzi-plugin-typed';
-// eslint-disable-next-line
-// @ts-ignore
-import PlitziSdk from '@plitzi/plitzi-sdk';
+import PlitziSdk from '@plitzi/plitzi-sdk/loader/next';
+import dynamic from 'next/dynamic';
 import { useMemo } from 'react';
 
 import { getEnvironmentServer } from '@/config';
 
-import PlitziBuilderWrapper from './PlitziBuilderWrapper';
+const PlitziBuilderWrapper = dynamic(() => import('./PlitziBuilderWrapper'), { ssr: false });
 
 import type { SDKEnvironment } from '@/config';
 
@@ -84,8 +78,6 @@ const PlitziSdkWrapper = ({
         component={PlitziBuilderWrapper}
         builderEnvironment={sdkEnvironment}
       />
-      {/* <PlitziSdk.Plugin renderType="typed" component={PluginTyped} />
-      <PlitziSdk.Plugin renderType="lottie" component={PluginLottie} /> */}
     </PlitziSdk>
   );
 };

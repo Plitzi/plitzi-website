@@ -4,9 +4,11 @@ const nextConfig: NextConfig = {
   reactStrictMode: false,
   /* config options here */
   // turbopack: {
+  //   root: '..',
   //   resolveAlias: {
-  //     react: require.resolve('react'),
-  //     'react-dom': require.resolve('react-dom')
+  //     '@plitzi/plitzi-sdk': '../plitzi-workspace/apps/sdk'
+  //     // react: require.resolve('react'),
+  //     // 'react-dom': require.resolve('react-dom')
   //   }
   // },
   rewrites() {

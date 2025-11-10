@@ -11,10 +11,10 @@
   },
   "packageManager": "yarn@4.9.4",
   "dependencies": {
-    "@plitzi/plitzi-builder": "^0.25.9",
+    "@plitzi/plitzi-builder": "^0.25.12",
     "@plitzi/plitzi-plugin-lottie": "^0.6.2",
     "@plitzi/plitzi-plugin-typed": "^0.6.1",
-    "@plitzi/plitzi-sdk": "^0.25.9",
+    "@plitzi/plitzi-sdk": "^0.25.12",
     "@plitzi/plitzi-ui": "^1.0.27",
     "classnames": "^2.5.1",
     "next": "16.0.1",
@@ -40,7 +40,7 @@
     "prettier-plugin-tailwindcss": "^0.7.1",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.3",
+    "typescript-eslint": "^8.46.4",
     "webpack": "^5.102.1"
   }
 }
