@@ -3,7 +3,7 @@
 
 // eslint-disable-next-line
 // @ts-ignore
-import PlitziSdk from '@plitzi/plitzi-sdk/loader/next';
+import PlitziSdk from '@plitzi/plitzi-sdk';
 import dynamic from 'next/dynamic';
 import { useMemo } from 'react';
 
