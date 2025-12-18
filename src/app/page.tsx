@@ -1,4 +1,5 @@
 'use client';
+
 // eslint-disable-next-line
 // @ts-ignore
 import PlitziSdk from '@plitzi/plitzi-sdk';
