@@ -42,6 +42,7 @@ export default tsEslint.config({
     ...nextPlugin.configs['core-web-vitals'].rules,
     // React Hooks rules
     ...reactHooks.configs.recommended.rules,
+    '@typescript-eslint/no-useless-default-assignment': 'off',
     '@typescript-eslint/consistent-type-imports': [
       'warn',
       {
