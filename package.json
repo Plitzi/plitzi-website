@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "prebuild": "node scripts/prebuild.mjs",
-    "dev": "next dev -p 3001",
-    "start": "next start -p 3001",
+    "dev": "next dev -p 3001 --hostname app.plitzi.local --experimental-https",
+    "start": "next start -p 3001 --hostname app.plitzi.local --experimental-https",
     "lint": "TIMING=1 eslint ./src",
     "build": "next build"
   },
