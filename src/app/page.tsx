@@ -3,14 +3,12 @@
 // eslint-disable-next-line
 // @ts-ignore
 import PlitziSdk from '@plitzi/plitzi-sdk';
-import dynamic from 'next/dynamic';
 import { useMemo } from 'react';
 
+import PlitziBuilderWrapper from '@/components/PlitziBuilderWrapper';
 import { getEnvironmentServer } from '@/config';
 
 import type { SDKEnvironment } from '@/config';
-
-const PlitziBuilderWrapper = dynamic(() => import('../components/PlitziBuilderWrapper'), { ssr: false });
 
 export default function Home() {
   const sdkEnvironment =
