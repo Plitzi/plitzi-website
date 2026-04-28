@@ -17,14 +17,14 @@
     "@plitzi/plitzi-sdk": "^0.27.13",
     "@plitzi/plitzi-ui": "^1.1.22",
     "classnames": "^2.5.1",
-    "next": "16.1.4",
+    "next": "^16.2.3",
     "raw-loader": "^4.0.2",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^16.1.4",
+    "@next/eslint-plugin-next": "^16.2.3",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.0.9",
     "@types/react": "^19.2.9",
